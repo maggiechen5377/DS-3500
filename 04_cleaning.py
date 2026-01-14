@@ -17,6 +17,11 @@ def demo_missing_detection(df):
     """
     Detect missing data through summaries and visualizations.
     """
+    # absolute values
+    print(df.isna().sum())
+
+    # proportions
+    print((df.isna().sum() / len(df) * 100).__round__(2))
 
 # =============================================================================
 # DEMO 2: Missing Data Strategies
@@ -26,7 +31,15 @@ def demo_drop_strategies(df):
     """
     Demonstrate dropping strategies for missing data
     """
+    df_dropped = df.copy()
 
+    df_dropped = df.dropna()
+    print(f"After drop, data shape is {df_dropped.shape}")
+
+    # critical columns
+    critical_cols = ["name", "enrollment"]
+    df_dropped = df.dropna(subset= critical_cols)
+    print(f"After drop, data shape is {df_dropped.shape}")
 
 def demo_fill_strategies(df):
     """
@@ -34,6 +47,22 @@ def demo_fill_strategies(df):
     do imputation with constants, statistical measures, forward/backward fills,
     or group-based values.
     """
+    df_dropped = df.copy()
+
+    # constant values
+    df_dropped["sat_avg"] = df["sat_avg"].fillna(0)
+
+    # median value for avg_cost
+    df_dropped["avg_cost"] = df["avg_cost"].fillna(df["avg_cost"].median())
+    print(df["avg_cost"].describe())
+    print(df_dropped["avg_cost"].describe())
+
+    # median values for avg_cost by state
+    medians = df.groupby("state")["avg_cost"].transform("median")
+    print(f"Shape of dropped is {df_dropped.shape} and shape of medians is {medians.shape}")
+    df_dropped["avg_cost"] = df["avg_cost"].fillna(medians)
+
+    print(df_dropped["avg_cost"].describe())
 
 # =============================================================================
 # DEMO 3: Identifying Unusual Values
@@ -52,6 +81,18 @@ def identify_unusual_schools(df, column):
         DataFrame of unusual schools
     """
 
+    # visually spotting outliers
+    df[column].plot.box()
+    plt.show()
+
+    q1 = df[column].quantile(0.25)
+    q3 = df[column].quantile(0.75)
+    iqr = q3 - q1
+
+    upper_bound = q3 + 1.5 * iqr
+    lower_bound = q1 - 1.5 * iqr
+
+    return df[(df[column] > upper_bound) | (df[column] < lower_bound)]
 
 # =============================================================================
 # DEMO 4: Analysis Decisions with Unusual Cases
@@ -110,13 +151,13 @@ if __name__ == '__main__':
     print()
 
     # DEMO 1: Missing Data
-    # demo_missing_detection(df)
-    # df_dropped = demo_drop_strategies(df)
-    # df_filled = demo_fill_strategies(df)
+    demo_missing_detection(df)
+    df_dropped = demo_drop_strategies(df)
+    df_filled = demo_fill_strategies(df)
 
     # DEMO 2: Unusual Values
-    # selective = identify_unusual_schools(df, 'admission_rate')
-
+    selective = identify_unusual_schools(df, 'admission_rate')
+    print(selective[["name", "admission_rate"]].to_string())
     # DEMO 3: Analysis Decisions
     # analyze_all_schools(df)
     # analyze_accessible_schools(df, max_selectivity=0.30)
