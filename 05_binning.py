@@ -1,5 +1,6 @@
 """
-AdvanceDemonstrates: Binning, duplicates, merging, validation
+Demonstrates: Binning, duplicates, merging, validation
+Rush's Notebook
 """
 
 import pandas as pd
@@ -12,31 +13,60 @@ import matplotlib.pyplot as plt
 
 def demo_binning(df):
     """
-    Create bins for cost_avg -- custom boundaries AND quantile-based bins
+    Create bins for avg cost -- custom boundaries AND quantile-based bins
     """
+    df_binned = df.copy()
+    print(df["avg_cost"].describe())
+
+    # manual binning
+    df_binned["avg_cost"] = pd.cut(df["avg_cost"],
+           bins=[3000, 10000, 30000, 60000, 90000],
+           labels=["low", "affordable", "pricey", "expensive"])
+
+    print(df_binned["avg_cost"].value_counts())
+
+    # quantile binning
+    df_binned["avg_cost_binned_qt"] = pd.qcut(df["avg_cost"], 4,
+                                   labels=["C1 (least expensive)", "C2",
+                                           "C3", "C4 (most expensive)"])
+    print(df_binned["avg_cost_binned_qt"].value_counts())
+
+
 
 # =============================================================================
 # SECTION 2: JOINING & MERGING DATAFRAMES
 # =============================================================================
-
-def demo_concat_vertical():
-    """
-    Demonstrate pd.concat() for vertical stacking
-
-    """
 
 def random_sample(df, n):
     """Utility function-- return a sample of random data points
     from the data frame"""
     return df.sample(n=n)
 
+def demo_concat_vertical(df):
+    """
+    Demonstrate pd.concat() for vertical stacking
+    """
+    df1 = random_sample(df, 30)
+    df2 = random_sample(df, 30)
+
+    df_combined = pd.concat([df1, df2],ignore_index=True)
+
+    print(f"Shape of resulting df is {df_combined.shape}")
+    print(df_combined.tail())
+
 def demo_concat_pattern(df):
     """
     Useful pattern for looping through pages of data, collecting the dataframes
     together.
     """
+    df_lst = []
+    for x in range(20):
+        # make a request for data
+        df_lst.append(random_sample(df, 50))
 
-def demo_merge_basics():
+    return pd.concat(df_lst, ignore_index=True)
+
+def demo_merge_basics(df):
     """
     Demonstrate merging-- outer, inner, left, right
     """
@@ -46,6 +76,15 @@ def demo_merge_basics():
         "population": [2000000, 60000000, 12000000, 45000000]
     })
 
+    df_merged = pd.merge(df, states, how="inner", on="state")
+    print(f"Merged df has shape {df_merged.shape}")
+    print(df_merged[["name", "state", "income"]])
+
+    df_merged = pd.merge(df, states, how="left", on="state")
+    print(f"Merged df has shape {df_merged.shape}")
+    print(df_merged[["name", "state", "income"]])
+
+
 # =============================================================================
 # SECTION 3: DUPLICATE DETECTION & HANDLING
 # =============================================================================
@@ -54,6 +93,13 @@ def demo_duplicates(df):
     """
     Detect and remove duplicates
     """
+    print(f"Number of duplicates is {df.duplicated().sum()}")
+
+    print(f"Number of duplicates when searching by name is "
+          f"{df.duplicated(subset=["name"]).sum()}")
+
+    # to view duplicates, use this as a mask
+    print(df[df.duplicated(subset=["name"])]["name"].to_string())
 
 
 # =============================================================================
@@ -71,6 +117,13 @@ def validate_college_data(df):
 
     Raises AssertionError if any check fails
     """
+
+    # making sure critical columns are not nan
+    assert df[["name", "state"]].notna().all().all(), "Columns are empty!"
+
+    # checking if adm rate in range
+    assert (df["admission_rate"] > 0).all(), "Admission rate not above 0"
+
 
 # =============================================================================
 # STUDENT EXERCISES
@@ -125,18 +178,18 @@ def exercise_3_merge(df):
 # =============================================================================
 if __name__ == '__main__':
     # Load data
-    df = pd.read_csv('data/college_scorecard_subset.csv')
+    df = pd.read_csv('data/college-scorecard.csv')
 
     # Binning
-    # demo_binning(df)
-
-    # Duplicates
-    # demo_duplicates(demo_concat_pattern(df))
+    demo_binning(df)
 
     # Merging
-    # demo_concat_vertical()
-    # demo_concat_pattern()
-    # demo_merge_basics()
+    demo_concat_vertical(df)
+    df_sampled = demo_concat_pattern(df)
+    # demo_merge_basics(df_sampled)
+
+    # Duplicates
+    demo_duplicates(df_sampled)
 
     # Validation
-    # validate_college_data(df)
+    validate_college_data(df)
