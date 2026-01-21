@@ -2,7 +2,6 @@
 REST APIs & Basic Requests
 Rush's Notebook
 
-TODO: Install requests to your conda environment!
 Topics:
 - JSON structure and parsing
 - Making GET requests with the requests library
@@ -28,7 +27,8 @@ def explore_json_structure(json_data):
     Review JSON structure and navigation
     """
     # Parse the JSON string
-    data = json.loads(json_data)
+    # data = json.loads(json_data)
+    data = json_data
 
     print("Data type:", type(data))
     print("Top-level keys:", data.keys())
@@ -45,18 +45,36 @@ def explore_json_structure(json_data):
 
 def simple_api_request():
     """
-    Make a simple API request to Open AQ.
+    Make a simple API countries request to Open AQ.
     Returns the JSON data.
     """
+    endpoint = "https://api.openaq.org/v3/countries/155"
+    headers = {
+        "X-API-Key" : API_KEY
+    }
+    response = requests.request("GET", endpoint, headers = headers)
+    return response.json()
+
 
 
 def api_request_with_parameters():
     """
     Make API request with query parameters. Use the Open AQ
-    API to get locations near us.
+    API to get locations near Boston via coordinates.
     Returns: the JSON data.
     """
-
+    endpoint = "https://api.openaq.org/v3/locations"
+    headers = {
+        "X-API-Key": API_KEY
+    }
+    parameters = {
+        "coordinates": "42.3611,-71.0570",
+        "radius": 1000
+    }
+    response = requests.request("GET", endpoint,
+                                headers=headers,
+                                params=parameters)
+    return response.json()
 
 def convert_to_dataframe(data):
     """
@@ -120,10 +138,12 @@ def main():
     # explore_json_structure()
 
     # Simple request
-    # simple_api_request()
+    json_data = simple_api_request()
+    # explore_json_structure(json_data)
 
     # Request with parameters
-    # data = api_request_with_parameters()
+    data = api_request_with_parameters()
+    explore_json_structure(data)
 
     # Extract and analyze
     # df = convert_to_dataframe(data)
@@ -138,4 +158,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
