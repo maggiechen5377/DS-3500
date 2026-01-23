@@ -9,12 +9,10 @@ import matplotlib.pyplot as plt
 import dotenv
 import os
 from time import sleep
-#TODO: add more imports here (dotenv, os, time)
 
-
-# TODO: Load environment variables from .env file
 # You can use Rush's API key from lecture 6 if you like.
 dotenv.load_dotenv()
+
 # ============================================================================
 # ENVIRONMENT VARIABLES
 # ============================================================================
@@ -44,14 +42,14 @@ def demo_basic_error_handling(url, params=None, headers=None):
         dict: JSON response or None if error
     """
     try:
-        response = requests.get(url, params=params, headers=headers)
+        response = requests.get(url, params, headers=headers)
         if response.status_code == 200:
-            print("success")
+            print("Success!")
         elif response.status_code == 429:
-            print('rate limit exceeded')
-    except requests.exceptions.ConnextionError:
-        print("Connection Error")
+            print("Rate limit exceeded!")
 
+    except requests.exceptions.ConnectionError:
+        print("Connection issue!")
 
 def demo_retry_logic(url, params=None, headers=None, max_retries=3):
     """
@@ -71,7 +69,6 @@ def demo_retry_logic(url, params=None, headers=None, max_retries=3):
         demo_basic_error_handling(url, params, headers)
         sleep(wait)
         wait = wait * 2
-
 
 # ============================================================================
 # PAGINATION
@@ -93,13 +90,13 @@ def demo_pagination(url, params=None, headers=None, num_pages=3):
     dataset = []
     for page in range(1, 4):
         params["page"] = page
-        response = requests.get(url, params=params, headers=headers)
+        response = requests.get(url, params, headers=headers)
         print(f"Status code is {response.status_code}")
         if response.status_code == 200:
             new_data = response.json()['results']
-            print(f"new data size is {len(new_data)}")
+            print(f"New data size is {len(new_data)}")
             dataset = dataset + new_data
-    print(f"final data size is{len(dataset)}")
+    print(f"Final data size is {len(dataset)}")
     return dataset
 
 # ============================================================================
@@ -115,13 +112,16 @@ def get_air_quality_data(url, params, headers):
     Returns:
         dict: JSON response or None if error
     """
-    # make the request
-    response = requests.get(url, params=params, headers=headers)
-    # data in dictionary
-    data_dct = response.json()['results']
-    print(json.dumps(data_dct), indent=2)
 
+    ## make the request
+    response = requests.get(url, params, headers=headers)
 
+    ### data in dictionary
+    data_dct = response.json()
+    # print(json.dumps(data_dct, indent=2))
+
+    df = convert_to_dataframe(data_dct)
+    print(df)
 
 def convert_to_dataframe(data):
     """
@@ -132,11 +132,14 @@ def convert_to_dataframe(data):
     Returns:
         pd.DataFrame: DataFrame with measurement data
     """
-    # TODO: Extract relevant fields
     records = []
     for measurement in data['results']:
         records.append({
-        # extract relevant data!
+        # extract relevant daily data!
+            # value
+            'o3': measurement["value"],
+            # date
+            'date': measurement['period']['datetimeFrom']['utc']
         })
 
     df = pd.DataFrame(records)
@@ -184,8 +187,8 @@ def main():
     Main function to run all demonstrations
     """
     # Part 1: Environment Variables
-    # api_key = demo_environment_variables()
-    # headers = {'X-API-Key': api_key} if api_key else None
+    api_key = demo_environment_variables()
+    headers = {'X-API-Key': api_key} if api_key else None
 
     # demo_basic_error_handling(
     #     "https://api.openaq.org/v3/locations",
@@ -198,14 +201,17 @@ def main():
     #     params={'limit': 5},
     #     headers=headers
     # )
-    # demo_pagination(
+    # dataset = demo_pagination(
     #     "https://api.openaq.org/v3/locations",
     #     params={'limit': 5},
     #     headers=headers
     # )
+    # print(json.dumps(dataset[:3], indent=2))
 
     # add function calls below for demoing air quality pipeline
-
+    get_air_quality_data("http://api.openaq.org/v3/sensors/521/measurements/daily",
+                         params={"limit": 50},
+                         headers= headers)
     # Exercises
     # exercise_1()
     # exercise_2()
