@@ -1,8 +1,8 @@
 """
 DS3500 Practical Exam 1 - Version 3
 City Employee Salaries
-Name: _________________
-Date: _________________
+Name: Maggie Chen
+Date: 1/28/25
 """
 
 import pandas as pd
@@ -12,12 +12,15 @@ import json
 def load_and_clean_salaries(filepath):
     """Load and clean employee salary data from JSON."""
     data = json.load(open(filepath))
-    pass
-
+    df = pd.DataFrame(data)
+    df['annual_salary'] = df['annual_salary'].str.replace('$', '', regex=False).str.replace(',', '',                                                                                    regex=False).astype(float)
+    df = df.dropna(subset=['annual_salary'])
+    df = df[df['annual_salary'] > 0]
+    return df
 
 def calculate_median_salary_by_department(df):
     """Calculate median salary by department."""
-    pass
+    return df.groupby('department')['salary'].median().sort_values(ascending=False)
 
 
 # ============================================
