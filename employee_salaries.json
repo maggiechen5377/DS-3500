@@ -1,0 +1,809 @@
+{
+  "metadata": {
+    "total_employees": 3241,
+    "fiscal_year": "2024",
+    "api_version": "2.8"
+  },
+  "employees": [
+    {
+      "employee_id": "EMP-001",
+      "name": "John Smith",
+      "department": "Public Works",
+      "position": "Engineer",
+      "annual_salary": 75000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-002",
+      "name": "jane doe",
+      "department": "public works",
+      "position": "Director of Public Works",
+      "annual_salary": 185000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-003",
+      "name": "MARY JOHNSON",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 68000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-004",
+      "name": "Robert Lee",
+      "department": "fire department",
+      "position": "Fire Chief",
+      "annual_salary": 225000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-005",
+      "name": "Sarah Williams",
+      "department": "Public Works",
+      "position": "Intern",
+      "annual_salary": NaN,
+      "employment_status": "Terminated"
+    },
+    {
+      "employee_id": "EMP-006",
+      "name": "Michael Brown",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": -50000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-007",
+      "name": "Jennifer Davis",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 72000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-008",
+      "name": "David Martinez",
+      "department": "police",
+      "position": "Police Chief",
+      "annual_salary": 210000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-009",
+      "name": "Lisa Anderson",
+      "department": "Parks & Recreation",
+      "position": "Park Ranger",
+      "annual_salary": 58000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-010",
+      "name": "James Wilson",
+      "department": "parks & recreation",
+      "position": "Director of Parks",
+      "annual_salary": 165000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-011",
+      "name": "Patricia Taylor",
+      "department": "Library",
+      "position": "Librarian",
+      "annual_salary": 62000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-012",
+      "name": "Christopher Moore",
+      "department": "library",
+      "position": "Library Director",
+      "annual_salary": 148000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-013",
+      "name": "Jessica Thomas",
+      "department": "Public Works",
+      "position": "Civil Engineer",
+      "annual_salary": 78000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-014",
+      "name": "Daniel Jackson",
+      "department": "Public Works",
+      "position": "Maintenance Worker",
+      "annual_salary": 52000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-015",
+      "name": "Emily White",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 70000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-016",
+      "name": "Matthew Harris",
+      "department": "fire department",
+      "position": "Battalion Chief",
+      "annual_salary": 125000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-017",
+      "name": "Ashley Martin",
+      "department": "Police",
+      "position": "Detective",
+      "annual_salary": 85000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-018",
+      "name": "Joshua Thompson",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 71000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-019",
+      "name": "Amanda Garcia",
+      "department": "Parks & Recreation",
+      "position": "Groundskeeper",
+      "annual_salary": 48000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-020",
+      "name": "Ryan Rodriguez",
+      "department": "parks & recreation",
+      "position": "Recreation Coordinator",
+      "annual_salary": 55000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-021",
+      "name": "Stephanie Lee",
+      "department": "Library",
+      "position": "Reference Librarian",
+      "annual_salary": 59000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-022",
+      "name": "Andrew Walker",
+      "department": "Public Works",
+      "position": "Project Manager",
+      "annual_salary": 92000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-023",
+      "name": "Nicole Hall",
+      "department": "Fire Department",
+      "position": "Paramedic",
+      "annual_salary": 76000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-024",
+      "name": "Kevin Allen",
+      "department": "police",
+      "position": "Sergeant",
+      "annual_salary": 95000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-025",
+      "name": "Melissa Young",
+      "department": "Parks & Recreation",
+      "position": "Program Director",
+      "annual_salary": 68000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-026",
+      "name": "Brian King",
+      "department": "Library",
+      "position": "Archivist",
+      "annual_salary": 64000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-027",
+      "name": "Rebecca Wright",
+      "department": "Public Works",
+      "position": "Inspector",
+      "annual_salary": 70000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-028",
+      "name": "Justin Lopez",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 69000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-029",
+      "name": "Rachel Hill",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 73000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-030",
+      "name": "Brandon Scott",
+      "department": "parks & recreation",
+      "position": "Landscape Architect",
+      "annual_salary": 72000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-031",
+      "name": "Lauren Green",
+      "department": "Library",
+      "position": "Children's Librarian",
+      "annual_salary": 58000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-032",
+      "name": "Eric Adams",
+      "department": "Public Works",
+      "position": "Traffic Engineer",
+      "annual_salary": 82000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-033",
+      "name": "Heather Baker",
+      "department": "fire department",
+      "position": "Fire Inspector",
+      "annual_salary": 88000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-034",
+      "name": "Aaron Nelson",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 70000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-035",
+      "name": "Samantha Carter",
+      "department": "Parks & Recreation",
+      "position": "Park Ranger",
+      "annual_salary": 57000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-036",
+      "name": "Tyler Mitchell",
+      "department": "Library",
+      "position": "Systems Librarian",
+      "annual_salary": 67000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-037",
+      "name": "Kimberly Perez",
+      "department": "Public Works",
+      "position": "Environmental Engineer",
+      "annual_salary": 85000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-038",
+      "name": "Jordan Roberts",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 71000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-039",
+      "name": "Michelle Turner",
+      "department": "police",
+      "position": "Crime Analyst",
+      "annual_salary": 78000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-040",
+      "name": "Jacob Phillips",
+      "department": "Parks & Recreation",
+      "position": "Facilities Manager",
+      "annual_salary": 75000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-041",
+      "name": "Elizabeth Campbell",
+      "department": "library",
+      "position": "Digital Resources Manager",
+      "annual_salary": 71000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-042",
+      "name": "Nicholas Parker",
+      "department": "Public Works",
+      "position": "Water Treatment Operator",
+      "annual_salary": 65000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-043",
+      "name": "Kayla Evans",
+      "department": "Fire Department",
+      "position": "Emergency Dispatcher",
+      "annual_salary": 58000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-044",
+      "name": "Dylan Edwards",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": -45000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-045",
+      "name": "Brittany Collins",
+      "department": "Parks & Recreation",
+      "position": "Recreation Leader",
+      "annual_salary": 46000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-046",
+      "name": "Zachary Stewart",
+      "department": "Library",
+      "position": "Librarian",
+      "annual_salary": 61000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-047",
+      "name": "Victoria Sanchez",
+      "department": "public works",
+      "position": "Senior Engineer",
+      "annual_salary": 95000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-048",
+      "name": "Connor Morris",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 68000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-049",
+      "name": "Alexis Rogers",
+      "department": "Police",
+      "position": "Detective",
+      "annual_salary": 87000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-050",
+      "name": "Mason Reed",
+      "department": "parks & recreation",
+      "position": "Athletic Coordinator",
+      "annual_salary": 62000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-051",
+      "name": "Hannah Cook",
+      "department": "Library",
+      "position": "Adult Services Librarian",
+      "annual_salary": 60000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-052",
+      "name": "Ethan Morgan",
+      "department": "Public Works",
+      "position": "Construction Inspector",
+      "annual_salary": 73000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-053",
+      "name": "Olivia Bell",
+      "department": "fire department",
+      "position": "Training Officer",
+      "annual_salary": 92000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-054",
+      "name": "Nathan Murphy",
+      "department": "Police",
+      "position": "Sergeant",
+      "annual_salary": 96000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-055",
+      "name": "Sophia Bailey",
+      "department": "Parks & Recreation",
+      "position": "Horticulturist",
+      "annual_salary": 64000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-056",
+      "name": "Logan Rivera",
+      "department": "Library",
+      "position": "Outreach Coordinator",
+      "annual_salary": 56000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-057",
+      "name": "Mia Cooper",
+      "department": "Public Works",
+      "position": "GIS Specialist",
+      "annual_salary": 77000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-058",
+      "name": "Jackson Richardson",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 70000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-059",
+      "name": "Ava Cox",
+      "department": "police",
+      "position": "Community Liaison",
+      "annual_salary": 65000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-060",
+      "name": "Lucas Howard",
+      "department": "Parks & Recreation",
+      "position": "Park Ranger",
+      "annual_salary": 58000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-061",
+      "name": "Grace Ward",
+      "department": "library",
+      "position": "Cataloging Specialist",
+      "annual_salary": 59000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-062",
+      "name": "Carter Torres",
+      "department": "Public Works",
+      "position": "Electrician",
+      "annual_salary": 68000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-063",
+      "name": "Chloe Peterson",
+      "department": "Fire Department",
+      "position": "Paramedic",
+      "annual_salary": 74000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-064",
+      "name": "Isaiah Gray",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 72000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-065",
+      "name": "Ella Ramirez",
+      "department": "Parks & Recreation",
+      "position": "Event Coordinator",
+      "annual_salary": 61000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-066",
+      "name": "Gabriel James",
+      "department": "Library",
+      "position": "Technical Services Manager",
+      "annual_salary": 75000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-067",
+      "name": "Addison Watson",
+      "department": "public works",
+      "position": "Assistant Director",
+      "annual_salary": 115000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-068",
+      "name": "William Brooks",
+      "department": "Fire Department",
+      "position": "Captain",
+      "annual_salary": 105000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-069",
+      "name": "Abigail Kelly",
+      "department": "Police",
+      "position": "Lieutenant",
+      "annual_salary": 108000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-070",
+      "name": "Benjamin Sanders",
+      "department": "parks & recreation",
+      "position": "Assistant Director",
+      "annual_salary": 98000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-071",
+      "name": "Madison Price",
+      "department": "Library",
+      "position": "Assistant Director",
+      "annual_salary": 92000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-072",
+      "name": "Samuel Bennett",
+      "department": "Public Works",
+      "position": "Plumber",
+      "annual_salary": 62000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-073",
+      "name": "Natalie Wood",
+      "department": "fire department",
+      "position": "Firefighter",
+      "annual_salary": 69000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-074",
+      "name": "Alexander Barnes",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 71000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-075",
+      "name": "Lily Ross",
+      "department": "Parks & Recreation",
+      "position": "Intern",
+      "annual_salary": NaN,
+      "employment_status": "Terminated"
+    },
+    {
+      "employee_id": "EMP-076",
+      "name": "Jack Henderson",
+      "department": "Library",
+      "position": "Volunteer Coordinator",
+      "annual_salary": 54000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-077",
+      "name": "Aubrey Coleman",
+      "department": "Public Works",
+      "position": "Administrative Assistant",
+      "annual_salary": 48000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-078",
+      "name": "Owen Jenkins",
+      "department": "Fire Department",
+      "position": "Equipment Technician",
+      "annual_salary": 63000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-079",
+      "name": "Zoe Perry",
+      "department": "police",
+      "position": "Records Clerk",
+      "annual_salary": 46000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-080",
+      "name": "Wyatt Powell",
+      "department": "Parks & Recreation",
+      "position": "Maintenance Worker",
+      "annual_salary": 51000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-081",
+      "name": "Arianna Long",
+      "department": "library",
+      "position": "Acquisitions Specialist",
+      "annual_salary": 58000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-082",
+      "name": "Luke Patterson",
+      "department": "Public Works",
+      "position": "Surveyor",
+      "annual_salary": 71000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-083",
+      "name": "Brooklyn Hughes",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 70000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-084",
+      "name": "Henry Flores",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": 73000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-085",
+      "name": "Layla Washington",
+      "department": "Parks & Recreation",
+      "position": "Park Ranger",
+      "annual_salary": 57000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-086",
+      "name": "Sebastian Butler",
+      "department": "Library",
+      "position": "Librarian",
+      "annual_salary": 62000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-087",
+      "name": "Scarlett Simmons",
+      "department": "public works",
+      "position": "Temp Worker",
+      "annual_salary": NaN,
+      "employment_status": "Terminated"
+    },
+    {
+      "employee_id": "EMP-088",
+      "name": "Christian Foster",
+      "department": "Fire Department",
+      "position": "Firefighter",
+      "annual_salary": 68000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-089",
+      "name": "Penelope Gonzales",
+      "department": "Police",
+      "position": "Evidence Technician",
+      "annual_salary": 59000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-090",
+      "name": "Julian Bryant",
+      "department": "parks & recreation",
+      "position": "Groundskeeper",
+      "annual_salary": 49000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-091",
+      "name": "Nora Alexander",
+      "department": "Library",
+      "position": "Youth Services Coordinator",
+      "annual_salary": 63000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-092",
+      "name": "Levi Russell",
+      "department": "Public Works",
+      "position": "Heavy Equipment Operator",
+      "annual_salary": 66000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-093",
+      "name": "Hazel Griffin",
+      "department": "fire department",
+      "position": "Firefighter",
+      "annual_salary": 71000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-094",
+      "name": "Caleb Diaz",
+      "department": "Police",
+      "position": "Police Officer",
+      "annual_salary": -38000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-095",
+      "name": "Bella Hayes",
+      "department": "Parks & Recreation",
+      "position": "Program Assistant",
+      "annual_salary": 52000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-096",
+      "name": "Austin Myers",
+      "department": "Library",
+      "position": "Reference Associate",
+      "annual_salary": 55000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-097",
+      "name": "Evelyn Ford",
+      "department": "Public Works",
+      "position": "Budget Analyst",
+      "annual_salary": 79000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-098",
+      "name": "Dominic Hamilton",
+      "department": "Fire Department",
+      "position": "Paramedic",
+      "annual_salary": 75000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-099",
+      "name": "Aurora Graham",
+      "department": "police",
+      "position": "Crime Prevention Specialist",
+      "annual_salary": 72000.0,
+      "employment_status": "Active"
+    },
+    {
+      "employee_id": "EMP-100",
+      "name": "Grayson Sullivan",
+      "department": "Parks & Recreation",
+      "position": "Urban Forester",
+      "annual_salary": 69000.0,
+      "employment_status": "Active"
+    }
+  ]
+}
