@@ -1,0 +1,301 @@
+species_name,latitude,longitude,date,state,coordinate_uncertainty
+"Sturnus vulgaris Linnaeus, 1758",40.21102,-74.932472,2023-01-02T15:20,Pennsylvania,15.0
+"Sturnus vulgaris Linnaeus, 1758",41.248763,-70.11634,2023-01-01T11:50,Massachusetts,1001.0
+"Sturnus vulgaris Linnaeus, 1758",40.80423,-73.959533,2023-01-01T14:49:40,New York,5.0
+"Sturnus vulgaris Linnaeus, 1758",38.887356,-77.019355,2023-01-01T15:06,District of Columbia,8.0
+"Sturnus vulgaris Linnaeus, 1758",45.643203,-73.658449,2023-01-01T12:35,Québec,180.0
+"Sturnus vulgaris Linnaeus, 1758",38.888747,-77.032233,2023-01-01T15:28:05,District of Columbia,11.0
+"Sturnus vulgaris Linnaeus, 1758",39.964236,-76.26576,2023-01-01T16:07:32,Pennsylvania,13.0
+"Sturnus vulgaris Linnaeus, 1758",38.952719,-77.070412,2023-01-01T16:41,District of Columbia,4.0
+"Sturnus vulgaris Linnaeus, 1758",42.395692,-71.138419,2023-01-01T16:08,Massachusetts,4.0
+"Sturnus vulgaris Linnaeus, 1758",38.89518,-77.039392,2023-01-01T15:36:51,District of Columbia,5.0
+"Sturnus vulgaris Linnaeus, 1758",45.6838,-73.694814,2023-01-02T12:27,Québec,778.0
+"Sturnus vulgaris Linnaeus, 1758",39.077123,-77.107754,2023-01-01T15:02,Maryland,7.0
+"Sturnus vulgaris Linnaeus, 1758",38.895162,-77.039458,2023-01-01T15:36:39,District of Columbia,5.0
+"Sturnus vulgaris Linnaeus, 1758",38.889103,-77.030944,2023-01-01T15:24:35,District of Columbia,4.0
+"Sturnus vulgaris Linnaeus, 1758",38.987649,-76.922087,2023-01-02T12:16,Maryland,495.0
+"Sturnus vulgaris Linnaeus, 1758",41.718567,-71.377733,2023-01-03T12:45:29,Rhode Island,19805.0
+"Sturnus vulgaris Linnaeus, 1758",40.810447,-73.956895,2023-01-01T13:53:37,New York,14.0
+"Sturnus vulgaris Linnaeus, 1758",44.478599,-77.314251,2023-01-02T08:43,Ontario,11.0
+"Sturnus vulgaris Linnaeus, 1758",41.674405,-70.09018,2023-01-03T09:34,Massachusetts,8.0
+"Sturnus vulgaris Linnaeus, 1758",39.169657,-76.811559,2023-01-02T14:31,Maryland,31.0
+"Sturnus vulgaris Linnaeus, 1758",40.19786,-75.097592,2023-01-05T12:59,Pennsylvania,60.0
+"Sturnus vulgaris Linnaeus, 1758",45.536227,-73.826125,2023-01-08T09:56,Québec,179.0
+"Sturnus vulgaris Linnaeus, 1758",38.890053,-77.017394,2023-01-07T09:36:08,District of Columbia,3.0
+"Sturnus vulgaris Linnaeus, 1758",40.327759,-75.128523,2023-01-05T07:50:54,Pennsylvania,19.0
+"Sturnus vulgaris Linnaeus, 1758",40.359888,-75.089164,2023-01-07T08:43:27,Pennsylvania,19.0
+"Sturnus vulgaris Linnaeus, 1758",40.773621,-73.966888,2023-01-04T12:38:37,New York,64.0
+"Sturnus vulgaris Linnaeus, 1758",40.6647,-73.961303,2023-01-08T13:33,New York,
+"Sturnus vulgaris Linnaeus, 1758",40.668362,-73.96215,2023-01-07T14:00,New York,
+"Sturnus vulgaris Linnaeus, 1758",40.238445,-75.180437,2023-01-03T15:27:27,Pennsylvania,4.0
+"Sturnus vulgaris Linnaeus, 1758",42.665399,-70.817179,2023-01-02T13:27,Massachusetts,31.0
+"Sturnus vulgaris Linnaeus, 1758",45.633149,-73.81115,2023-01-04T11:57,Québec,122.0
+"Sturnus vulgaris Linnaeus, 1758",41.892499,-72.642124,2023-01-05T12:42,Connecticut,8.0
+"Sturnus vulgaris Linnaeus, 1758",39.163438,-76.837408,2023-01-05T14:47,Maryland,15.0
+"Sturnus vulgaris Linnaeus, 1758",44.476958,-77.31257,2023-01-07T08:54,Ontario,11.0
+"Sturnus vulgaris Linnaeus, 1758",38.925343,-77.043668,2023-01-09T15:48,District of Columbia,4.0
+"Sturnus vulgaris Linnaeus, 1758",38.987649,-76.922087,2023-01-08T10:55,Maryland,495.0
+"Sturnus vulgaris Linnaeus, 1758",42.38626,-71.141712,2023-01-08T10:56,Massachusetts,136.0
+"Sturnus vulgaris Linnaeus, 1758",39.475608,-76.304588,2023-01-10T10:19:39,Maryland,19.0
+"Sturnus vulgaris Linnaeus, 1758",40.663723,-73.961998,2023-01-04T12:52,New York,
+"Sturnus vulgaris Linnaeus, 1758",39.109348,-76.832403,2023-01-08T12:38:09,Maryland,28151.0
+"Sturnus vulgaris Linnaeus, 1758",39.767777,-75.603278,2023-01-10T09:28:31,Delaware,
+"Sturnus vulgaris Linnaeus, 1758",39.66909,-76.713446,2023-01-08T11:07,Maryland,2.0
+"Sturnus vulgaris Linnaeus, 1758",39.029092,-76.917714,2023-01-09T11:22:32,Maryland,
+"Sturnus vulgaris Linnaeus, 1758",39.669087,-76.713449,2023-01-08T11:07,Maryland,2.0
+"Sturnus vulgaris Linnaeus, 1758",39.103607,-77.10888,2023-01-08T11:14:48,Maryland,8.0
+"Sturnus vulgaris Linnaeus, 1758",40.328808,-75.067268,2023-01-09T10:47:44,Pennsylvania,19.0
+"Sturnus vulgaris Linnaeus, 1758",44.595445,-75.67706,2023-01-07T08:16:06,Ontario,19.0
+"Sturnus vulgaris Linnaeus, 1758",41.9292,-70.652533,2023-01-03T19:27:34,Massachusetts,38.0
+"Sturnus vulgaris Linnaeus, 1758",39.78178,-75.558435,2023-01-05T15:44,Delaware,2.0
+"Sturnus vulgaris Linnaeus, 1758",40.327909,-75.128583,2023-01-06T08:32:53,Pennsylvania,52.0
+"Sturnus vulgaris Linnaeus, 1758",40.302927,-75.03673,2023-01-08T10:49,Pennsylvania,8.0
+"Sturnus vulgaris Linnaeus, 1758",39.321143,-76.645622,2023-01-06T09:38,Maryland,8.0
+"Sturnus vulgaris Linnaeus, 1758",40.35994,-75.089223,2023-01-06T07:55:34,Pennsylvania,30.0
+"Sturnus vulgaris Linnaeus, 1758",42.437619,-70.983694,2023-01-08T11:44,Massachusetts,31.0
+"Sturnus vulgaris Linnaeus, 1758",40.32875,-75.067275,2023-01-10T08:11:54,Pennsylvania,4.0
+"Sturnus vulgaris Linnaeus, 1758",42.385549,-71.10796,2023-01-10T17:01,Massachusetts,8.0
+"Sturnus vulgaris Linnaeus, 1758",38.987649,-76.922087,2023-01-08T10:53,Maryland,495.0
+"Sturnus vulgaris Linnaeus, 1758",39.991403,-75.31218,2023-01-09T08:51:30,Pennsylvania,4.0
+"Sturnus vulgaris Linnaeus, 1758",42.390872,-71.135578,2023-01-09T10:18:52,Massachusetts,
+"Sturnus vulgaris Linnaeus, 1758",38.98571,-76.922931,2023-01-07T15:39,Maryland,266.0
+"Sturnus vulgaris Linnaeus, 1758",40.809028,-73.957155,2023-01-09T12:50,New York,8.0
+"Sturnus vulgaris Linnaeus, 1758",40.668398,-73.960552,2023-01-14,New York,8.0
+"Sturnus vulgaris Linnaeus, 1758",44.170605,-77.347301,2023-01-11T10:50,Ontario,31.0
+"Sturnus vulgaris Linnaeus, 1758",41.18453,-75.264979,2023-01-14T10:46:01,Pennsylvania,9.0
+"Sturnus vulgaris Linnaeus, 1758",40.3288,-75.067236,2023-01-14T10:40:18,Pennsylvania,18.0
+"Sturnus vulgaris Linnaeus, 1758",44.17062,-77.347172,2023-01-11T10:55,Ontario,31.0
+"Sturnus vulgaris Linnaeus, 1758",38.870368,-77.225529,2023-01-13T11:32:15,Virginia,40049.0
+"Sturnus vulgaris Linnaeus, 1758",38.893211,-77.022506,2023-01-11T16:07,District of Columbia,
+"Sturnus vulgaris Linnaeus, 1758",40.582325,-73.953438,2023-01-11T11:46,New York,
+"Sturnus vulgaris Linnaeus, 1758",41.424955,-73.438667,2023-01-11T09:51,Connecticut,2.0
+"Sturnus vulgaris Linnaeus, 1758",40.812113,-73.955278,2023-01-13T09:29:11,New York,17.0
+"Sturnus vulgaris Linnaeus, 1758",40.328757,-75.06723,2023-01-14T08:13:19,Pennsylvania,19.0
+"Sturnus vulgaris Linnaeus, 1758",39.359413,-74.443874,2023-01-14T11:43:18,New Jersey,5.0
+"Sturnus vulgaris Linnaeus, 1758",39.794317,-76.608217,2023-01-02T11:05:54,Pennsylvania,64.0
+"Sturnus vulgaris Linnaeus, 1758",40.810074,-73.956823,2023-01-09T12:32,New York,43.0
+"Sturnus vulgaris Linnaeus, 1758",40.762487,-73.981012,2023-01-14T14:27:31,New York,50.0
+"Sturnus vulgaris Linnaeus, 1758",44.170559,-77.347172,2023-01-12T14:24,Ontario,31.0
+"Sturnus vulgaris Linnaeus, 1758",44.170713,-77.347387,2023-01-13T10:33,Ontario,31.0
+"Sturnus vulgaris Linnaeus, 1758",38.874204,-77.100224,2023-01-14T09:39,Virginia,90.0
+"Sturnus vulgaris Linnaeus, 1758",40.327741,-75.128411,2023-01-11T09:54:03,Pennsylvania,37.0
+"Sturnus vulgaris Linnaeus, 1758",40.802133,-73.925263,2023-01-14T11:01,New York,31.0
+"Sturnus vulgaris Linnaeus, 1758",41.48214,-72.272675,2023-01-07T12:01,Connecticut,
+"Sturnus vulgaris Linnaeus, 1758",41.733937,-70.384908,2023-01-11T07:43,Massachusetts,15.0
+"Sturnus vulgaris Linnaeus, 1758",41.755396,-70.498335,2023-01-11T08:17,Massachusetts,2.0
+"Sturnus vulgaris Linnaeus, 1758",40.719395,-74.525842,2023-01-15T11:35,New Jersey,2.0
+"Sturnus vulgaris Linnaeus, 1758",42.891534,-73.287699,2023-01-11T14:45:55,New York,5.0
+"Sturnus vulgaris Linnaeus, 1758",38.894412,-77.037349,2023-01-17T11:12,District of Columbia,1066.0
+"Sturnus vulgaris Linnaeus, 1758",39.662728,-75.690667,2023-01-15T15:48:17,Delaware,4.0
+"Sturnus vulgaris Linnaeus, 1758",44.17062,-77.347301,2023-01-15T11:17,Ontario,31.0
+"Sturnus vulgaris Linnaeus, 1758",45.372506,-75.78815,2023-01-17T11:37:02,Ontario,29.0
+"Sturnus vulgaris Linnaeus, 1758",38.883789,-76.996391,2023-01-16T10:11:57,District of Columbia,129.0
+"Sturnus vulgaris Linnaeus, 1758",38.889495,-77.023356,2023-01-14T14:09:15,District of Columbia,16.0
+"Sturnus vulgaris Linnaeus, 1758",44.170582,-77.347226,2023-01-15T11:16,Ontario,194.0
+"Sturnus vulgaris Linnaeus, 1758",42.064403,-72.571167,2023-01-16T10:45:22,Massachusetts,20.0
+"Sturnus vulgaris Linnaeus, 1758",40.353587,-74.638042,2023-01-16T07:49,New Jersey,407.0
+"Sturnus vulgaris Linnaeus, 1758",40.658091,-73.994688,2023-01-15T17:32,New York,4.0
+"Sturnus vulgaris Linnaeus, 1758",38.84414,-77.460607,2023-01-15T17:19,Virginia,47.0
+"Sturnus vulgaris Linnaeus, 1758",38.987649,-76.922087,2023-01-15T16:07,Maryland,495.0
+"Sturnus vulgaris Linnaeus, 1758",40.76942,-73.978852,2023-01-16T13:28,New York,
+"Sturnus vulgaris Linnaeus, 1758",40.741269,-73.988189,2023-01-16T12:20:13,New York,35.0
+"Turdus migratorius Linnaeus, 1766",40.810447,-73.956895,2023-01-01T13:53:31,New York,14.0
+"Turdus migratorius Linnaeus, 1766",40.671363,-73.965637,2023-01-01T15:29,New York,
+"Turdus migratorius Linnaeus, 1766",45.643203,-73.658449,2023-01-01T13:27,Québec,180.0
+"Turdus migratorius Linnaeus, 1766",45.632612,-73.812797,2023-01-02T12:43,Québec,122.0
+"Turdus migratorius Linnaeus, 1766",38.892866,-76.491628,2023-01-01T10:10,Maryland,596.0
+"Turdus migratorius Linnaeus, 1766",45.470621,-73.933524,2023-01-02T08:49,Québec,90.0
+"Turdus migratorius Linnaeus, 1766",40.810353,-73.956855,2023-01-01T13:50:57,New York,14.0
+"Turdus migratorius Linnaeus, 1766",40.804112,-73.959633,2023-01-01T14:48:35,New York,12.0
+"Turdus migratorius Linnaeus, 1766",40.80383,-73.959733,2023-01-01T14:47:30,New York,5.0
+"Turdus migratorius Linnaeus, 1766",44.117335,-76.450426,2023-01-02T09:10,Ontario,30.0
+"Turdus migratorius Linnaeus, 1766",38.960497,-77.015935,2023-01-01T16:43,District of Columbia,15.0
+"Turdus migratorius Linnaeus, 1766",45.6838,-73.694814,2023-01-02T10:32,Québec,778.0
+"Turdus migratorius Linnaeus, 1766",42.396778,-71.147531,2023-01-01T15:20,Massachusetts,9.0
+"Turdus migratorius Linnaeus, 1766",40.770541,-73.952406,2023-01-02T12:43:12,New York,35.0
+"Turdus migratorius Linnaeus, 1766",40.80415,-73.959412,2023-01-01T14:39:38,New York,5.0
+"Turdus migratorius Linnaeus, 1766",38.937255,-77.343799,2023-01-01T11:17,Virginia,4.0
+"Turdus migratorius Linnaeus, 1766",42.779167,-71.855351,2023-01-01T08:47,New Hampshire,4.0
+"Turdus migratorius Linnaeus, 1766",40.810395,-73.956908,2023-01-01T13:51:44,New York,14.0
+"Turdus migratorius Linnaeus, 1766",38.813574,-77.040337,2023-01-01T13:34:14,Virginia,62.0
+"Turdus migratorius Linnaeus, 1766",38.877862,-75.280843,2023-01-02T16:27,Delaware,15.0
+"Turdus migratorius Linnaeus, 1766",40.7705,-73.952333,2023-01-02T15:37:09,New York,35.0
+"Turdus migratorius Linnaeus, 1766",40.313408,-74.740029,2023-01-02T08:17,New Jersey,316.0
+"Turdus migratorius Linnaeus, 1766",45.470139,-73.934125,2023-01-03T09:11,Québec,84.0
+"Turdus migratorius Linnaeus, 1766",45.6838,-73.694814,2023-01-02T10:54,Québec,778.0
+"Turdus migratorius Linnaeus, 1766",41.2655,-70.072527,2023-01-01T15:39,Massachusetts,196.0
+"Turdus migratorius Linnaeus, 1766",44.902865,-68.66064,2023-01-01T14:21,Maine,2.0
+"Turdus migratorius Linnaeus, 1766",39.991712,-76.287379,2023-01-01T10:49:29,Pennsylvania,4.0
+"Turdus migratorius Linnaeus, 1766",38.961127,-76.478587,2023-01-01T12:48,Maryland,15.0
+"Turdus migratorius Linnaeus, 1766",41.67447,-70.090708,2023-01-03T09:48,Massachusetts,8.0
+"Turdus migratorius Linnaeus, 1766",40.77057,-73.952485,2023-01-02T15:37:57,New York,35.0
+"Turdus migratorius Linnaeus, 1766",45.636396,-73.814627,2023-01-06T12:22,Québec,61.0
+"Turdus migratorius Linnaeus, 1766",41.48214,-72.272675,2023-01-07T11:45,Connecticut,
+"Turdus migratorius Linnaeus, 1766",42.3287,-71.103148,2023-01-07T12:14,Massachusetts,4.0
+"Turdus migratorius Linnaeus, 1766",40.810238,-73.95675,2023-01-06T15:23:04,New York,14.0
+"Turdus migratorius Linnaeus, 1766",38.93502,-77.355549,2023-01-07T12:34,Virginia,8.0
+"Turdus migratorius Linnaeus, 1766",38.935596,-77.345928,2023-01-06T10:56,Virginia,4.0
+"Turdus migratorius Linnaeus, 1766",42.381395,-71.151346,2023-01-08T10:15,Massachusetts,157.0
+"Turdus migratorius Linnaeus, 1766",39.057529,-77.037842,2023-01-02T13:13,Maryland,
+"Turdus migratorius Linnaeus, 1766",41.610249,-70.313859,2023-01-02T11:31,Massachusetts,27754.0
+"Turdus migratorius Linnaeus, 1766",38.938489,-77.436545,2023-01-07T16:58,Virginia,28181.0
+"Turdus migratorius Linnaeus, 1766",38.935633,-77.345697,2023-01-06T10:57,Virginia,2.0
+"Turdus migratorius Linnaeus, 1766",42.366138,-71.25383,2023-01-07T15:50:17,Massachusetts,35.0
+"Turdus migratorius Linnaeus, 1766",45.47044,-73.933439,2023-01-08T08:36,Québec,141.0
+"Turdus migratorius Linnaeus, 1766",38.834042,-77.405097,2023-01-08T08:16,Virginia,28181.0
+"Turdus migratorius Linnaeus, 1766",41.145279,-74.117322,2023-01-07T11:08,New York,31.0
+"Turdus migratorius Linnaeus, 1766",45.63597,-73.814488,2023-01-06T12:28,Québec,122.0
+"Turdus migratorius Linnaeus, 1766",39.330535,-75.472535,2023-01-03T12:09,Delaware,4.0
+"Turdus migratorius Linnaeus, 1766",45.632439,-73.809782,2023-01-04T12:00,Québec,122.0
+"Turdus migratorius Linnaeus, 1766",40.8111,-73.959472,2023-01-06T14:14:17,New York,8.0
+"Turdus migratorius Linnaeus, 1766",41.760241,-70.090456,2023-01-07T09:58,Massachusetts,15.0
+"Turdus migratorius Linnaeus, 1766",45.536227,-73.826125,2023-01-08T10:34,Québec,179.0
+"Turdus migratorius Linnaeus, 1766",40.670472,-73.965255,2023-01-08T13:57,New York,
+"Turdus migratorius Linnaeus, 1766",40.055431,-75.170862,2023-01-02T11:48:04,Pennsylvania,24.0
+"Turdus migratorius Linnaeus, 1766",41.414753,-72.971955,2023-01-04T15:32,Connecticut,150.0
+"Turdus migratorius Linnaeus, 1766",38.929053,-77.350613,2023-01-05T12:22,Virginia,2.0
+"Turdus migratorius Linnaeus, 1766",40.238453,-75.180412,2023-01-04T09:49:07,Pennsylvania,4.0
+"Turdus migratorius Linnaeus, 1766",39.773102,-75.292313,2023-01-07T16:38:53,New Jersey,25.0
+"Turdus migratorius Linnaeus, 1766",45.480144,-73.761483,2023-01-07T10:46,Québec,198.0
+"Turdus migratorius Linnaeus, 1766",41.375035,-73.455776,2023-01-08T09:33,Connecticut,2.0
+"Turdus migratorius Linnaeus, 1766",45.643203,-73.658449,2023-01-06T11:12,Québec,180.0
+"Turdus migratorius Linnaeus, 1766",39.066045,-76.579121,2023-01-03T10:05,Maryland,28151.0
+"Turdus migratorius Linnaeus, 1766",38.935955,-77.357328,2023-01-03T15:10,Virginia,8.0
+"Turdus migratorius Linnaeus, 1766",44.498962,-73.217247,2023-01-08,Vermont,15.0
+"Turdus migratorius Linnaeus, 1766",45.372491,-75.787936,2023-01-09T10:52:06,Ontario,130.0
+"Turdus migratorius Linnaeus, 1766",39.668997,-76.713426,2023-01-08T11:16,Maryland,11.0
+"Turdus migratorius Linnaeus, 1766",40.016893,-75.029535,2023-01-09T07:28,Pennsylvania,28000.0
+"Turdus migratorius Linnaeus, 1766",44.498527,-73.216743,2023-01-08,Vermont,15.0
+"Turdus migratorius Linnaeus, 1766",38.932805,-77.342985,2023-01-10T12:28,Virginia,8.0
+"Turdus migratorius Linnaeus, 1766",42.390691,-71.135178,2023-01-09T10:14:35,Massachusetts,
+"Turdus migratorius Linnaeus, 1766",45.508731,-73.59883,2023-01-09T11:30,Québec,31.0
+"Turdus migratorius Linnaeus, 1766",38.932166,-77.351386,2023-01-08T11:33,Virginia,8.0
+"Turdus migratorius Linnaeus, 1766",42.354344,-71.113655,2023-01-10T15:44:56,Massachusetts,5.0
+"Turdus migratorius Linnaeus, 1766",41.655003,-70.380913,2023-01-09T12:24:06,Massachusetts,40.0
+"Turdus migratorius Linnaeus, 1766",42.414824,-71.155597,2023-01-08T15:04:58,Massachusetts,5.0
+"Turdus migratorius Linnaeus, 1766",42.320433,-71.119767,2023-01-02T14:32,Massachusetts,4.0
+"Turdus migratorius Linnaeus, 1766",42.385163,-71.109081,2023-01-10T17:10,Massachusetts,8.0
+"Turdus migratorius Linnaeus, 1766",38.930502,-77.342477,2023-01-09T13:21,Virginia,4.0
+"Turdus migratorius Linnaeus, 1766",39.32123,-76.645638,2023-01-06T09:38,Maryland,2.0
+"Turdus migratorius Linnaeus, 1766",41.908101,-72.69841,2023-01-05T13:19,Connecticut,61.0
+"Turdus migratorius Linnaeus, 1766",40.6716,-73.965065,2023-01-06T13:42,New York,
+"Turdus migratorius Linnaeus, 1766",41.772472,-70.30693,2023-01-03T10:04,Massachusetts,27754.0
+"Turdus migratorius Linnaeus, 1766",38.980077,-77.035787,2023-01-09T15:20:19,Virginia,28181.0
+"Turdus migratorius Linnaeus, 1766",41.685011,-70.298543,2023-01-02T11:31,Massachusetts,27754.0
+"Turdus migratorius Linnaeus, 1766",39.054035,-77.039597,2023-01-14T13:53,Maryland,
+"Turdus migratorius Linnaeus, 1766",39.053936,-77.03965,2023-01-14T13:54,Maryland,
+"Turdus migratorius Linnaeus, 1766",40.809056,-73.957094,2023-01-09T12:49,New York,15.0
+"Turdus migratorius Linnaeus, 1766",38.890367,-77.025208,2023-01-14T14:08:58,District of Columbia,4.0
+"Turdus migratorius Linnaeus, 1766",38.906825,-77.075272,2023-01-14T12:24:38,District of Columbia,14.0
+"Turdus migratorius Linnaeus, 1766",42.644967,-70.85238,2023-01-11T14:25,Massachusetts,260.0
+"Turdus migratorius Linnaeus, 1766",42.650541,-70.858774,2023-01-11T14:33,Massachusetts,313.0
+"Turdus migratorius Linnaeus, 1766",40.179559,-75.030235,2023-01-11T16:17,Pennsylvania,20.0
+"Turdus migratorius Linnaeus, 1766",40.473858,-74.424496,2023-01-11T13:09,New Jersey,31.0
+"Turdus migratorius Linnaeus, 1766",45.643203,-73.658449,2023-01-14T14:42,Québec,180.0
+"Turdus migratorius Linnaeus, 1766",38.979042,-77.240118,2023-01-02T15:15,Virginia,196.0
+"Turdus migratorius Linnaeus, 1766",45.519887,-73.496204,2023-01-11T12:27:05,Québec,7.0
+"Turdus migratorius Linnaeus, 1766",40.721837,-73.953987,2023-01-14T08:50:51,New York,7.0
+"Turdus migratorius Linnaeus, 1766",45.635838,-73.8135,2023-01-10T12:05,Québec,244.0
+"Turdus migratorius Linnaeus, 1766",41.755301,-70.498472,2023-01-11T08:18,Massachusetts,4.0
+"Turdus migratorius Linnaeus, 1766",39.103313,-77.118156,2023-01-13T12:24,Maryland,
+"Turdus migratorius Linnaeus, 1766",40.809769,-73.956852,2023-01-09T12:42,New York,4.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:12,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",43.839197,-72.381531,2023-01-01T15:14:25,Vermont,20.0
+"Poecile atricapillus (Linnaeus, 1766)",41.071899,-75.314646,2023-01-01T14:14:10,Pennsylvania,
+"Poecile atricapillus (Linnaeus, 1766)",42.417908,-71.129495,2023-01-01T13:47:56,Massachusetts,62.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T17:03,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:13,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.27247,-73.182587,2023-01-01T14:27:37,Vermont,4.0
+"Poecile atricapillus (Linnaeus, 1766)",46.911594,-71.369596,2023-01-02T12:45,Québec,146.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T16:01,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",42.779243,-71.85571,2023-01-01T08:46,New Hampshire,8.0
+"Poecile atricapillus (Linnaeus, 1766)",44.182381,-73.366618,2023-01-01T15:13,Vermont,41.0
+"Poecile atricapillus (Linnaeus, 1766)",42.779595,-71.855392,2023-01-01T08:46,New Hampshire,122.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:13,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:12,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.893037,-74.007881,2023-01-02T09:02:38,New Jersey,4.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:11,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T17:02,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:13,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",46.042897,-74.187536,2023-01-02T08:21:03,Québec,
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:11,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.702349,-74.52233,2023-01-01T10:12,New Jersey,1005.0
+"Poecile atricapillus (Linnaeus, 1766)",45.320539,-75.584464,2023-01-01T12:28,Ontario,798.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:13,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.658547,-73.967003,2023-01-02T10:07,New York,
+"Poecile atricapillus (Linnaeus, 1766)",44.81007,-68.913372,2023-01-01T10:43,Maine,2649.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:12,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:13,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",45.643203,-73.658449,2023-01-01T13:31,Québec,180.0
+"Poecile atricapillus (Linnaeus, 1766)",45.320539,-75.584464,2023-01-01T12:27,Ontario,798.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:13,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",45.320539,-75.584464,2023-01-01T12:31,Ontario,798.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:12,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.359581,-72.810186,2023-01-02T16:04:01,Vermont,64.0
+"Poecile atricapillus (Linnaeus, 1766)",45.643203,-73.658449,2023-01-02T16:51,Québec,1195.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:12,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T17:03,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",42.42487,-71.516902,2023-01-01T09:14,Massachusetts,15.0
+"Poecile atricapillus (Linnaeus, 1766)",40.339935,-75.17191,2023-01-03T09:13,Pennsylvania,2.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-02T12:21,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:23,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-02T12:20,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:11,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.339946,-75.171905,2023-01-03T09:22,Pennsylvania,2.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:23,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",45.320539,-75.584464,2023-01-03T14:09,Ontario,798.0
+"Poecile atricapillus (Linnaeus, 1766)",44.354834,-72.607548,2023-01-01T13:58:22,Vermont,4.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T17:02,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-01T13:12,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.475532,-77.311296,2023-01-01T10:09,Ontario,11.0
+"Poecile atricapillus (Linnaeus, 1766)",40.582968,-73.994937,2023-01-02T15:19:26,New York,106.0
+"Poecile atricapillus (Linnaeus, 1766)",45.973542,-66.675247,2023-01-03T10:23,New Brunswick,
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-02T12:21,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",46.913653,-71.365978,2023-01-03T10:01,Québec,89.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-02T12:21,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-02T12:21,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",45.320539,-75.584464,2023-01-03T14:21,Ontario,798.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-02T12:21,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.339946,-75.17191,2023-01-03T08:46,Pennsylvania,2.0
+"Poecile atricapillus (Linnaeus, 1766)",44.034442,-71.622213,2023-01-02T10:40:55,New Hampshire,4.0
+"Poecile atricapillus (Linnaeus, 1766)",44.154592,-70.310128,2023-01-03T15:32:03,Maine,4.0
+"Poecile atricapillus (Linnaeus, 1766)",40.893033,-74.007897,2023-01-08T10:55:46,New Jersey,4.0
+"Poecile atricapillus (Linnaeus, 1766)",42.367876,-73.559413,2023-01-07T14:32,New York,23201.0
+"Poecile atricapillus (Linnaeus, 1766)",42.468185,-71.162496,2023-01-07T14:00,Massachusetts,1100.0
+"Poecile atricapillus (Linnaeus, 1766)",43.794025,-75.34156,2023-01-08T10:06:33,New York,50.0
+"Poecile atricapillus (Linnaeus, 1766)",41.260401,-69.961958,2023-01-05T13:47,Massachusetts,1630.0
+"Poecile atricapillus (Linnaeus, 1766)",45.519888,-73.49621,2023-01-07T11:11:08,Québec,7.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-07T14:28,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-03T12:22,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",42.473036,-71.160717,2023-01-08T12:59:47,Massachusetts,38.0
+"Poecile atricapillus (Linnaeus, 1766)",42.461799,-71.647596,2023-01-07T15:17,Massachusetts,186.0
+"Poecile atricapillus (Linnaeus, 1766)",41.482219,-72.275304,2023-01-05T11:16,Connecticut,31.0
+"Poecile atricapillus (Linnaeus, 1766)",45.284242,-75.819747,2023-01-07T15:54:27,Ontario,4.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-07T14:27,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.658607,-73.967643,2023-01-07T11:45,New York,
+"Poecile atricapillus (Linnaeus, 1766)",46.380198,-72.85991,2023-01-07T12:32,Québec,4.0
+"Poecile atricapillus (Linnaeus, 1766)",45.631699,-73.809135,2023-01-02T12:04,Québec,244.0
+"Poecile atricapillus (Linnaeus, 1766)",40.893025,-74.007881,2023-01-08T10:55:39,New Jersey,4.0
+"Poecile atricapillus (Linnaeus, 1766)",43.713498,-73.351907,2023-01-04T12:39,Vermont,186.0
+"Poecile atricapillus (Linnaeus, 1766)",45.030176,-73.072861,2023-01-01T11:35,Québec,8.0
+"Poecile atricapillus (Linnaeus, 1766)",42.067115,-70.19385,2023-01-07T12:57,Massachusetts,61.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-07T14:26,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",45.350876,-76.025307,2023-01-01T11:25:48,Ontario,147.0
+"Poecile atricapillus (Linnaeus, 1766)",42.472072,-71.171677,2023-01-07T14:18:49,Massachusetts,61.0
+"Poecile atricapillus (Linnaeus, 1766)",43.957733,-73.010589,2023-01-02T11:16:08,Vermont,4.0
+"Poecile atricapillus (Linnaeus, 1766)",40.307365,-76.882639,2023-01-07T11:18:02,Pennsylvania,35.0
+"Poecile atricapillus (Linnaeus, 1766)",42.826916,-70.819737,2023-01-07T14:31,Massachusetts,8.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-03T12:22,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",45.372415,-75.787607,2023-01-04T11:22:18,Ontario,97.0
+"Poecile atricapillus (Linnaeus, 1766)",41.38246,-71.586297,2023-01-05T11:05:16,Rhode Island,40.0
+"Poecile atricapillus (Linnaeus, 1766)",43.66273,-72.341585,2023-01-07T11:21:11,Vermont,8.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-07T14:26,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",46.838576,-71.211502,2023-01-03T08:46:04,Québec,4.0
+"Poecile atricapillus (Linnaeus, 1766)",45.23009,-75.546918,2023-01-04T11:27:19,Ontario,27190.0
+"Poecile atricapillus (Linnaeus, 1766)",44.688907,-77.212494,2023-01-08T12:21,Ontario,1542.0
+"Poecile atricapillus (Linnaeus, 1766)",40.656387,-73.970727,2023-01-08T12:07,New York,
+"Poecile atricapillus (Linnaeus, 1766)",44.652639,-72.730231,2023-01-08T12:20:09,Vermont,22.0
+"Poecile atricapillus (Linnaeus, 1766)",40.609705,-73.879238,2023-01-08T12:22:12,New York,27908.0
+"Poecile atricapillus (Linnaeus, 1766)",42.6042,-71.61682,2023-01-07T09:13,Massachusetts,15.0
+"Poecile atricapillus (Linnaeus, 1766)",45.508175,-73.597478,2023-01-09T11:07,Québec,61.0
+"Poecile atricapillus (Linnaeus, 1766)",43.601212,-73.182792,2023-01-09T11:37,Vermont,31.0
