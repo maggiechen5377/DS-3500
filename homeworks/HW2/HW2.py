@@ -198,6 +198,8 @@ def calculate_analysis(enriched_df):
     plt.xticks(range(12), ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
     plt.tight_layout()
+    plt.savefig('species_dist.png', dpi=300, bbox_inches='tight')
+    print("\n✓ Plot saved as 'species_dist.png'")
     plt.show()
 
     print("\nObservations by Month:")
@@ -212,66 +214,89 @@ def calculate_analysis(enriched_df):
     for species, count in species_totals.items():
         print(f"  {species}: {count} observations")
 
-# 5 Validation 
+    # Analysis
+    calculate_analysis(enriched_data)
 
 # ============================================
-# TESTING SECTION
+# MAIN EXECUTION
 # ============================================
 
 if __name__ == "__main__":
-    # Data Acquisition
-    species_list = [
-        'Sturnus vulgaris',
-        'Turdus migratorius',
-        'Poecile atricapillus'
-    ]
-    bird_data = pd.read_csv('bird_observations_2023.csv')
+    import json
 
-    print("\n=== Date Investigation ===")
-    print("Sample raw dates:")
-    print(bird_data['date'].head(20))
-    print("\nDate value counts (top 10):")
-    print(bird_data['date'].value_counts().head(10))
-    print("\nAre all dates the same?")
-    print(f"Unique dates: {bird_data['date'].nunique()}")
-
-    print(f"\nTotal observations: {len(bird_data)}")
-    print(bird_data.head())
-    print(f"\nTotal observations: {len(bird_data)}")
-    print(bird_data.head())
-
-    # Data Cleaning
+    # Define species and load data
     species_list = [
         'Sturnus vulgaris',
         'Turdus migratorius',
         'Poecile atricapillus']
+
+    # Step 1: Data Acquisition
+    print("Step 1: Fetching data from GBIF API...")
     bird_data = fetch_gbif_data(species_list, year=2023)
+
+    # Step 2: Data Cleaning
+    print("\nStep 2: Cleaning data...")
     cleaned_data, metrics = clean_biodiversity_data(bird_data)
 
-    print("\n=== Data Cleaning Metrics ===")
-    print(f"Raw count: {metrics['raw_count']}")
-    print(f"Clean count: {metrics['clean_count']}")
-    print(f"Removed - missing data: {metrics['removed_missing']}")
-    print(f"Removed - duplicates: {metrics['removed_duplicates']}")
-    print(f"Removed - invalid dates: {metrics['removed_invalid_dates']}")
-    print(f"Percent retained: {metrics['percent_retained']}%")
-
-    # Data Enrichment
+    # Step 3: Data Enrichment
+    print("\nStep 3: Enriching with state data...")
     state_ref = pd.read_csv('state_reference.csv')
     enriched_data = enrich_with_state_data(cleaned_data, state_ref)
 
-    print("\n=== Enriched Data Sample ===")
-    print(enriched_data[['species_name', 'state', 'region', 'area_sq_km']].head(10))
-
-    print("\n=== Observations by Region ===")
-    print(enriched_data['region'].value_counts())
-
-    print(f"\n=== Data Shape ===")
-    print(f"Rows: {len(enriched_data)}")
-    print(f"Columns: {len(enriched_data.columns)}")
-    print(f"New columns added: region, area_sq_km")
-
-    # Analysis
+    # Step 4: Analysis
+    print("\nStep 4: Performing analysis...")
     calculate_analysis(enriched_data)
 
-    pass
+    # Generate Deliverable Files
+    print("\n" + "=" * 60)
+    print("GENERATING DELIVERABLE FILES")
+    print("=" * 60)
+
+    # 1. analysis_output.json
+    analysis_output = {
+        "observations_by_state": enriched_data.groupby('state').size().to_dict(),
+        "observations_by_region": enriched_data['region'].value_counts().to_dict(),
+        "observations_by_month": enriched_data.groupby('month').size().to_dict(),
+        "observations_by_species": enriched_data.groupby('species_name').size().to_dict(),
+        "total_observations": len(enriched_data),
+        "states_covered": enriched_data['state'].nunique(),
+        "date_range": {
+            "earliest": enriched_data['date'].min().strftime('%Y-%m-%d'),
+            "latest": enriched_data['date'].max().strftime('%Y-%m-%d')
+        }
+    }
+
+    with open('analysis_output.json', 'w') as f:
+        json.dump(analysis_output, f, indent=2)
+    print("✓ Saved analysis_output.json")
+
+    # 2. quality_metrics.json
+    with open('quality_metrics.json', 'w') as f:
+        json.dump(metrics, f, indent=2)
+    print("✓ Saved quality_metrics.json")
+
+    # 3. species_dist.png (saved by calculate_analysis function)
+    print("✓ Saved species_dist.png")
+
+    print("\nAll deliverable files generated successfully!")
+
+# ============================================
+# VALIDATION TESTS (Requirement 5)
+# ============================================
+
+def test_fetch_gbif_data():
+    """Test that fetch_gbif_data returns a DataFrame with required columns"""
+    species_list = ['Sturnus vulgaris']
+    year = 2023
+
+    result = fetch_gbif_data(species_list, year)
+
+    assert isinstance(result, pd.DataFrame), "Should return a DataFrame"
+
+    required_columns = ['species_name', 'latitude', 'longitude', 'date', 'state', 'coordinate_uncertainty']
+    for col in required_columns:
+        assert col in result.columns, f"Missing required column: {col}"
+
+    assert len(result) > 0, "Should return at least some observations"
+
+    print("✓ test_fetch_gbif_data passed")

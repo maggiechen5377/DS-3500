@@ -73,11 +73,20 @@ def test_data_loads():
     """Test that CSV data loads correctly.
     Data should have rows.
     Data should have columns for neighborhood and sensor"""
-    pass
+    pd.read_csv(AIR_QUALITY_PATH)
+    assert len(data) > 0
+    assert "neighborhood" in data.columns
+    assert "sensor" in data.columns
+
 
 def test_pm25_values_valid():
     """Test with helpful error messages
     PM2.5 values should be non-negative and cannot be more than 500"""
+    data = pd.read_csv(AIR_QUALITY_PATH)
+    pm25 = data[data['sensor'] == "pm25"]
+    assert (pm25['value'] >=0).all(), "PM2.5 data has negative values"
+    assert (pm25['value']<= 500).all(), "Pm2.5 data has unreasonably high values"
+
     pass
 
 ###############################################################################
@@ -97,13 +106,17 @@ def sample_air_quality():
 # Example tests using fixtures
 def test_calculate_average(sample_air_quality):
     """Using fixture in a test and approximating values"""
+    avg = sample_air_quality['value'].mean()
+    assert avg == pytest.approx(sum([3.43, 4.80, 5.69]) / 3)
 
 # def test_remove_negative_values(dirty_air_quality):
 #     """Test cleaning with dirty fixture"""
 #     # Assume we have a clean_air_quality function
-#     # cleaned = clean_air_quality(dirty_air_quality)
+#     cleaned = clean_air_quality(dirty_air_quality)
 #     # assert (cleaned['value'] >= 0).all()
+#     assert cleaned == sample_air_quality
 #     pass
+
 
 ###############################################################################
 # MOCKING API CALLS
@@ -134,11 +147,19 @@ def mock_openaq_response():
 @patch('requests.get')
 def test_fetch_openaq_data(mock_get, mock_openaq_response):
     """Test API fetch WITHOUT calling real API"""
-    # Setup the mock
+    # Set up the mock
+    # set up the status code get().status_code
+    fake_get_request.return_value.status_code = 200
+
+    # set up get().json()
+    fake_get_request.return_value.json.return_value = mock_openaq_response
 
     # Call function (uses mock instead of real API)
+    data = get_air_quality_data()
 
     # Verify it processed correctly
+    assert len(data) == 2
+    assert data.at[0, 'value'] == 3.43
 
     # Verify API was called
 
