@@ -1,0 +1,39 @@
+{
+  "observations_by_state": {
+    "Connecticut": 8,
+    "Delaware": 3,
+    "District Of Columbia": 6,
+    "Maine": 2,
+    "Maryland": 20,
+    "Massachusetts": 30,
+    "New Brunswick": 1,
+    "New Hampshire": 3,
+    "New Jersey": 5,
+    "New York": 19,
+    "Ontario": 29,
+    "Pennsylvania": 8,
+    "Qu\u00e9bec": 28,
+    "Vermont": 3,
+    "Virginia": 14
+  },
+  "observations_by_region": {
+    "Southern New England": 38,
+    "South": 37,
+    "Northeast": 32,
+    "Northern New England": 8
+  },
+  "observations_by_month": {
+    "1": 179
+  },
+  "observations_by_species": {
+    "Poecile atricapillus (Linnaeus, 1766)": 51,
+    "Sturnus vulgaris Linnaeus, 1758": 57,
+    "Turdus migratorius Linnaeus, 1766": 71
+  },
+  "total_observations": 179,
+  "states_covered": 15,
+  "date_range": {
+    "earliest": "2023-01-01",
+    "latest": "2023-01-17"
+  }
+}

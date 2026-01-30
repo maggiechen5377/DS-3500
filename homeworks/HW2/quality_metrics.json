@@ -1,0 +1,8 @@
+{
+  "raw_count": 300,
+  "clean_count": 179,
+  "removed_missing": 0,
+  "removed_duplicates": 21,
+  "removed_invalid_dates": 100,
+  "percent_retained": 59.67
+}

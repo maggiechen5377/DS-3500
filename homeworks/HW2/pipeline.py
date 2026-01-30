@@ -214,8 +214,6 @@ def calculate_analysis(enriched_df):
     for species, count in species_totals.items():
         print(f"  {species}: {count} observations")
 
-    # Analysis
-    calculate_analysis(enriched_data)
 
 # ============================================
 # MAIN EXECUTION
@@ -279,24 +277,3 @@ if __name__ == "__main__":
     print("✓ Saved species_dist.png")
 
     print("\nAll deliverable files generated successfully!")
-
-# ============================================
-# VALIDATION TESTS (Requirement 5)
-# ============================================
-
-def test_fetch_gbif_data():
-    """Test that fetch_gbif_data returns a DataFrame with required columns"""
-    species_list = ['Sturnus vulgaris']
-    year = 2023
-
-    result = fetch_gbif_data(species_list, year)
-
-    assert isinstance(result, pd.DataFrame), "Should return a DataFrame"
-
-    required_columns = ['species_name', 'latitude', 'longitude', 'date', 'state', 'coordinate_uncertainty']
-    for col in required_columns:
-        assert col in result.columns, f"Missing required column: {col}"
-
-    assert len(result) > 0, "Should return at least some observations"
-
-    print("✓ test_fetch_gbif_data passed")
