@@ -16,9 +16,26 @@ BIO_DATA_PATH = "data/bio.csv"
 
 def demo_minimal():
     """Minimal sankey: source nodes, target nodes, and values"""
+    source = [0,0,1,1]
+    target = [2,3,2,4]
+    value = [1, 2, 1.5, 3]
+    link = {'source': source, 'target': target, 'value': value}
+    sk = go.Sankey(link=link)
+    fig = go.Figure(sk)
+    fig.show()
 
 def demo_labels_styling():
     """Adding node labels and basic styling parameters (pad, thickness)"""
+    s = [0,0,1,1]
+    t = [3,4,2,3]
+    v = [1,3,2,2]
+    link = {'source': s, 'target': t, 'value': v,
+            'line': {'color': 'black', 'width': 1}}
+    node = {'label': ["A", "B", "C", "D", "E"],
+            'pad': 30}
+    sk = go.Sankey(link=link, node=node)
+    fig = go.Figure(sk)
+    fig.show()
 
 def demo_bidirectional():
     """Nodes as both sources and targets, with link and node line styling"""
@@ -30,6 +47,15 @@ def demo_colors_customization():
     value = [10000, 40000, 20000, 20000, 2000]
     labels = ["Teaching", "Dogsitting", "Investments",
               "Living Expenses", "Wants", "Savings"]
+
+    color_links = ["gainsboro"] * 5
+    color_links[0] = "seagreen"
+    link = {'source': source, 'target': target, 'value': value,
+            'color': color_links}
+    node = {'label': labels, 'pad': 20}
+    sk = go.Sankey(link=link, node=node)
+    fig = go.Figure(sk)
+    fig.show()
 
 
 def demo_string_problem():
@@ -52,9 +78,9 @@ def demo_string_problem():
 
 
 def main():
-    demo_minimal()
-    demo_labels_styling()
-    demo_bidirectional()
+    # demo_minimal()
+    # demo_labels_styling()
+    # demo_bidirectional()
     demo_colors_customization()
     # demo5_string_problem()  # Uncomment to show the error!
 

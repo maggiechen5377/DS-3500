@@ -1,0 +1,9 @@
+disease,gene,pubs
+Stomach,Gx,1
+Stomach,Gy,3
+Stomach,Gz,7
+Lung,Gx,1
+Lung,Gz,2
+Brain,Gx,2
+Brain,Gy,3
+Brain,Gz,1
