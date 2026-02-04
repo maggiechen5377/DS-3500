@@ -16,29 +16,34 @@ BIO_DATA_PATH = "data/bio.csv"
 
 def demo_minimal():
     """Minimal sankey: source nodes, target nodes, and values"""
-    source = [0,0,1,1]
-    target = [2,3,2,4]
+    source = [0, 0, 1, 1]
+    target = [2, 3, 2, 4]
     value = [1, 2, 1.5, 3]
-    link = {'source': source, 'target': target, 'value': value}
+    link = {"source": source, "target": target, "value": value}
+
     sk = go.Sankey(link=link)
     fig = go.Figure(sk)
     fig.show()
 
 def demo_labels_styling():
     """Adding node labels and basic styling parameters (pad, thickness)"""
-    s = [0,0,1,1]
-    t = [3,4,2,3]
-    v = [1,3,2,2]
-    link = {'source': s, 'target': t, 'value': v,
-            'line': {'color': 'black', 'width': 1}}
+    s = [0, 0, 1, 1, 1, 2]
+    t = [3, 4, 3, 3, 4, 3]
+    v = [2, 1, 1, 1, 1, 1]
+
+    link = {"source": s, "target": t, "value": v,
+            'line': {'color': 'black' , 'width': 0.4}}
     node = {'label': ["A", "B", "C", "D", "E"],
-            'pad': 30}
+            'pad': 5}
+
     sk = go.Sankey(link=link, node=node)
     fig = go.Figure(sk)
     fig.show()
 
 def demo_bidirectional():
     """Nodes as both sources and targets, with link and node line styling"""
+
+
 
 def demo_colors_customization():
     """Advanced customization: individual link colors, node colors, and titles"""
@@ -50,12 +55,15 @@ def demo_colors_customization():
 
     color_links = ["gainsboro"] * 5
     color_links[0] = "seagreen"
-    link = {'source': source, 'target': target, 'value': value,
-            'color': color_links}
-    node = {'label': labels, 'pad': 20}
-    sk = go.Sankey(link=link, node=node)
-    fig = go.Figure(sk)
+
+
+    link = {"source": source, "target": target, "value": value,
+            'color':color_links}
+    node = {"label": labels}
+
+    fig = go.Figure(go.Sankey(node=node, link=link))
     fig.show()
+
 
 
 def demo_string_problem():
@@ -69,7 +77,7 @@ def demo_string_problem():
     # But this will work - values have been pre-encoded as numbers!
     # df = pd.read_csv('data/bio_encoded.csv')
 
-    link = {'source': df.source, 'target': df.target, 'value': df.value}
+    link = {'source': df.source, 'target': df.target, 'value': df.value,}
     node = {'label': ['?'] * 6}
 
     sk = go.Sankey(link=link, node=node)
