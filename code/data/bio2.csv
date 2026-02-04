@@ -1,0 +1,10 @@
+stage,organ,count
+Stage I,Stomach,15
+Stage I,Lung,20
+Stage I,Brain,8
+Stage II,Stomach,25
+Stage II,Lung,30
+Stage II,Brain,12
+Stage III,Stomach,10
+Stage III,Lung,15
+Stage III,Brain,18
