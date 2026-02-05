@@ -12,6 +12,7 @@ import pandas as pd
 DATA_FILE_PATH = "college-scorecard.csv"
 STATE_COL = "state"
 ADM_RATE_COL = "admission_rate"
+MIN_VALUE_ENROLLMENT = 0
 # TODO: Add more column constants
 
 class CollegeAPI:
@@ -28,14 +29,14 @@ class CollegeAPI:
         pass
 
 
-    def get_subset(self, state= "all states", min_enrollment=0):
+    def get_subset(self, state= "all states", min_enrollment=MIN_VALUE_ENROLLMENT):
         """
         return a filtered dataframe
         """
 
 
     def get_flow(self, state="All States", left_layer=ADM_RATE_COL,
-                 right_layer="completion_rate", min_enrollment=0):
+                 right_layer="completion_rate", min_enrollment=MIN_VALUE_ENROLLMENT):
         """Filter and aggregate data for sankey diagram"""
         pass
 
