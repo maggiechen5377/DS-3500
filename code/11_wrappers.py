@@ -14,18 +14,18 @@ def _code_mapping(df, src, targ):
     """Map labels in src and targ columns to integers.
     Return the df and labels
     Talk about internal/helper functions."""
-    # collect all the src and targ strings
-    all_labels = pd.concat([df[src], df[targ]]).unique()
 
+    # collect all the unique src and target strings
+    all_labels = pd.concat([df[src], df[targ]]).unique()
 
     # assign each one a number starting from 0
 
     # create a mapping (dict)
-    labels = {}
+    labels = { }
     for i in range(len(all_labels)):
         labels[all_labels[i]] = i
 
-    # update src adn targ columns in the df
+    # update the src and targ columns in the df
     df[src] = df[src].map(lambda val: labels[val])
     df[targ] = df[targ].map(lambda val: labels[val])
     return df, labels
@@ -34,42 +34,42 @@ def _code_mapping(df, src, targ):
 def make_sankey(df, src, targ, vals, **kwargs):
     """Generate a sankey diagram from dataframe.
     Talk about keyword args and positional args
-    line_width: modify of line for links
+    line_width : width of line for links
     """
-    df, mapping = _code_mapping(df,src,targ)
+    df, mapping = _code_mapping(df, src, targ)
 
-    line_width = kwargs.get('line_width', None)
+    line_width = kwargs.get("line_width", None)
 
-    link = {'source': df[src], 'target': df[targ], 'values': df[vals],
-            'line': {"width": line_width}}
-    node = {'label': list(mapping.keys())}
-    fig = go.Figure(go.sankey(link=link, node=node))
-    fig.show()
+    link = {"source": df[src], "target": df[targ], "value": df[vals],
+            "line": {"width": line_width}}
+    node = {"label": list(mapping.keys())}
+    fig = go.Figure(go.Sankey(link=link, node=node))
+    # fig.show()
+    return fig
 
 
 def demo_wrapper_basic():
     """Using the wrapper with simple bio data: organ → gene"""
     bio = pd.read_csv('data/bio.csv')
-    make_sankey(bio, 'disease', 'gene', 'pubs')
+    fig = make_sankey(bio, 'disease', 'gene', 'pubs')
     fig.show()
 
     bio2 = pd.read_csv('data/bio2.csv')
-    make_sankey(bio2, 'stage', 'organ', 'counts',
-                line_width=1, orientation='vertical')
+    fig = make_sankey(bio2, 'stage', 'organ', 'count',
+                      line_width=1, orientation="v")
     fig.show()
-
 
 def demo_multi_layer_stacking():
     """Multi-layer Sankey via dataframe stacking: stage → organ → gene.
     """
     bio = pd.read_csv('data/bio.csv')
-    bio.columns = ['source', 'target', 'value']
+    bio.columns = ["source", "target", "value"]
     bio2 = pd.read_csv('data/bio2.csv')
-    bio2.columns = ['source', 'target', 'value']
+    bio2.columns = ["source", "target", "value"]
     combined = pd.concat([bio, bio2])
-    fig = make_sankey(combined, 'source', 'target', 'value')
-    fig.show()
 
+    fig = make_sankey(combined, "source", "target", "value")
+    fig.show()
 
 def practice_creating_sankey():
     '''Practice your own sankey diagram. Use the college dataset to study
@@ -81,8 +81,8 @@ def practice_creating_sankey():
 
 
 def main():
-    demo_wrapper_basic()
-    # demo_multi_layer_stacking()
+    # demo_wrapper_basic()
+    demo_multi_layer_stacking()
     pass
 
 if __name__ == '__main__':
