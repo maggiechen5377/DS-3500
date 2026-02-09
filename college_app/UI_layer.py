@@ -28,9 +28,13 @@ def main():
     pn.extension()
 
     # Initialize API
-    api = college_api.college_api_mock()
+    api = college_api.college_api_mock(college_api.DATA_FILE_PATH)
+    api.proccess_data()
 
     # WIDGET DECLARATIONS
+    state_slct = pn.widgets.Select(name = 'State', options = api.get_states())
+    enrollment_sldr = pn.widgets.IntSlider(name = 'Enrollment', start=0, end = 100000, step = 10, value=0)
+
     # Search Widgets
     # Plotting widgets
 
@@ -40,8 +44,8 @@ def main():
     # DASHBOARD WIDGET CONTAINERS ("CARDS")
     search_card = pn.Card(
         pn.Column(
-            # Widget 1
-            # Widget 2
+            state_slct
+            enrollment_sldr
             # Widget 3
         ),
         title="Search", width=CARD_WIDTH, collapsed=False
