@@ -44,8 +44,8 @@ def main():
     # DASHBOARD WIDGET CONTAINERS ("CARDS")
     search_card = pn.Card(
         pn.Column(
-            state_slct
-            enrollment_sldr
+            state_slct,
+            enrollment_sldr,
             # Widget 3
         ),
         title="Search", width=CARD_WIDTH, collapsed=False
