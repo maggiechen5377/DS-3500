@@ -85,7 +85,36 @@ def create_visualization(df):
     Create the required visualization.
     *** YOU WILL IMPLEMENT THIS FUNCTION DURING THE EXAM ***
     """
-    pass
+    segment_colors = {'New': '#636EFA', 'Returning': '#EF553B', 'VIP': '#00CC96'}
+    fig = px.density_contour(
+        df,
+        x=AGE_COL,
+        y=SESSION_DURATION_COL,
+        color=CUSTOMER_SEGMENT_COL,
+        color_discrete_map=segment_colors,
+        marginal_x='histogram',
+        marginal_y='histogram',
+        title='Density Contour: Customer Age vs. Session Duration by Segment',
+        labels={
+            AGE_COL: 'Age',
+            SESSION_DURATION_COL: 'Session Duration (minutes)',
+            CUSTOMER_SEGMENT_COL: 'Customer Segment'})
+
+    fig.update_traces(contours_coloring='fill', contours_showlabels=True,
+                      selector=dict(type='histogram2dcontour'))
+
+    fig.update_layout(
+        template='plotly_white',
+        width=900,
+        height=700,
+        legend=dict(title='Customer Segment'))
+
+    fig.show()
+    return fig
+
+
+
+
 
 def main():
     # Load and clean the data
