@@ -1,0 +1,401 @@
+customer_id,age,location,device_type,session_duration,items_viewed,cart_value,stage,customer_segment,days_since_signup,marketing_source,promo_code_used,abandoned_cart_emails_sent
+CUST-00001,72,San Antonio,Mobile,16.8,1,134.18,Browse,Returning,65,Organic,False,0
+CUST-00005,36,Chicago,Mobile,5.3,5,72.11,Browse,VIP,515,Organic,False,0
+CUST-00006,75,Los Angeles,Mobile,7.7,2,113.49,Browse,Returning,219,Organic,False,0
+CUST-00007,68,Denver,Mobile,12.0,3,115.79,Browse,Returning,280,Email,False,0
+CUST-00011,64,Los Angeles,Desktop,9.1,2,173.25,Browse,Returning,226,Organic,False,0
+CUST-00014,39,San Antonio,Desktop,8.5,3,118.99,Browse,VIP,427,Email,False,0
+CUST-00015,51,San Diego,Mobile,11.7,3,76.13,Browse,New,44,Paid Search,False,0
+CUST-00016,40,San Francisco,Desktop,8.4,6,88.18,Browse,New,33,Organic,False,0
+CUST-00017,40,Chicago,Desktop,12.4,1,110.27,Browse,New,26,Social Media,False,0
+CUST-00019,30,Miami,Mobile,6.2,1,64.25,Browse,Returning,275,Organic,False,0
+CUST-00020,30,Austin,Desktop,6.7,1,72.2,Browse,New,30,Paid Search,False,0
+CUST-00022,44,San Francisco,Mobile,17.1,4,64.46,Browse,Returning,255,Direct,False,0
+CUST-00023,62,New York,Mobile,8.0,1,83.65,Browse,New,48,Paid Search,False,0
+CUST-00024,44,New York,Mobile,6.6,2,82.21,Browse,Returning,246,Paid Search,True,0
+CUST-00025,47,Chicago,Desktop,6.0,2,159.68,Browse,VIP,529,Direct,False,0
+CUST-00027,52,Denver,Desktop,8.7,7,111.59,Browse,New,6,Paid Search,False,0
+CUST-00030,53,Phoenix,Desktop,4.7,4,144.23,Browse,New,27,Social Media,False,0
+CUST-00032,47,Phoenix,Mobile,5.3,2,77.13,Browse,Returning,226,Email,False,0
+CUST-00033,47,Miami,Desktop,12.9,2,119.06,Browse,New,55,Social Media,False,0
+CUST-00037,75,Philadelphia,Mobile,8.2,4,176.75,Browse,VIP,383,Direct,False,0
+CUST-00038,36,San Francisco,Mobile,19.0,2,75.53,Browse,Returning,293,Email,False,0
+CUST-00040,39,Denver,Desktop,8.5,4,139.83,Browse,VIP,562,Direct,False,0
+CUST-00041,52,Boston,Tablet,6.0,3,122.86,Browse,New,1,Social Media,False,0
+CUST-00043,35,Chicago,Mobile,9.8,2,83.81,Browse,Returning,79,Paid Search,False,0
+CUST-00045,31,Boston,Mobile,9.2,3,56.9,Browse,New,29,Paid Search,False,0
+CUST-00047,69,Dallas,Mobile,4.6,2,98.85,Browse,New,29,Organic,False,0
+CUST-00050,73,Los Angeles,Mobile,15.3,5,103.9,Browse,New,0,Paid Search,False,0
+CUST-00057,49,Denver,Desktop,9.5,4,151.64,Browse,New,56,Paid Search,False,0
+CUST-00058,55,San Antonio,Tablet,6.1,1,116.56,Browse,New,59,Social Media,False,0
+CUST-00059,29,Chicago,Desktop,5.9,6,82.42,Browse,Returning,182,Paid Search,True,0
+CUST-00060,71,Denver,Mobile,12.1,4,124.04,Browse,Returning,179,Organic,False,0
+CUST-00061,75,Philadelphia,Desktop,5.0,1,163.64,Browse,New,33,Organic,False,0
+CUST-00062,49,San Antonio,Mobile,9.1,4,86.25,Browse,New,2,Social Media,True,0
+CUST-00064,75,Dallas,Desktop,10.3,5,203.06,Browse,New,16,Paid Search,False,0
+CUST-00065,58,Los Angeles,Mobile,2.5,2,89.94,Browse,New,12,Paid Search,False,0
+CUST-00067,66,Miami,Desktop,11.0,3,182.68,Browse,New,55,Organic,False,0
+CUST-00069,43,Austin,Desktop,21.1,3,135.2,Browse,VIP,441,Direct,False,0
+CUST-00072,30,Los Angeles,Desktop,4.8,2,94.72,Browse,Returning,117,Paid Search,False,0
+CUST-00073,28,Miami,Mobile,17.3,3,56.47,Browse,New,4,Paid Search,False,0
+CUST-00078,35,San Antonio,Desktop,4.8,7,89.76,Browse,Returning,225,Paid Search,False,0
+CUST-00079,46,Houston,Mobile,6.9,3,61.52,Browse,New,17,Organic,False,0
+CUST-00080,64,Seattle,Mobile,4.6,2,100.28,Browse,New,9,Paid Search,False,0
+CUST-00083,45,Dallas,Mobile,6.7,2,67.19,Browse,Returning,249,Organic,True,0
+CUST-00084,34,San Francisco,Mobile,3.6,3,45.4,Browse,New,41,Organic,False,0
+CUST-00085,75,Los Angeles,Tablet,6.7,8,187.74,Browse,Returning,113,Paid Search,False,0
+CUST-00086,47,Los Angeles,Desktop,6.9,3,125.51,Browse,Returning,242,Direct,False,0
+CUST-00091,39,Denver,Desktop,15.5,1,121.29,Browse,New,43,Organic,False,0
+CUST-00098,34,New York,Mobile,7.0,2,68.55,Browse,Returning,81,Organic,True,0
+CUST-00099,37,San Antonio,Mobile,14.8,1,66.25,Browse,Returning,324,Paid Search,False,0
+CUST-00100,30,Boston,Tablet,12.4,6,90.04,Browse,Returning,331,Direct,False,0
+CUST-00101,38,New York,Mobile,3.0,2,73.49,Browse,Returning,97,Organic,False,0
+CUST-00103,75,Philadelphia,Desktop,7.0,2,194.49,Browse,Returning,309,Direct,True,0
+CUST-00106,36,San Antonio,Mobile,8.8,2,55.11,Browse,Returning,147,Direct,False,0
+CUST-00107,34,New York,Desktop,9.2,2,117.53,Browse,Returning,185,Organic,True,0
+CUST-00109,63,Miami,Desktop,13.3,5,148.9,Browse,Returning,269,Email,False,0
+CUST-00110,30,Miami,Desktop,9.5,6,64.92,Browse,New,2,Paid Search,False,0
+CUST-00111,56,New York,Mobile,3.6,3,74.16,Browse,New,25,Organic,False,0
+CUST-00112,38,Miami,Tablet,8.6,5,97.51,Browse,VIP,380,Email,False,0
+CUST-00118,39,Austin,Desktop,11.1,2,99.58,Browse,New,54,Paid Search,False,0
+CUST-00123,56,Los Angeles,Tablet,6.6,3,144.64,Browse,Returning,109,Organic,False,0
+CUST-00124,28,Austin,Mobile,7.7,6,47.31,Browse,VIP,463,Direct,False,0
+CUST-00125,48,Miami,Mobile,14.8,1,92.68,Browse,New,40,Organic,False,0
+CUST-00126,58,New York,Desktop,4.4,2,152.35,Browse,Returning,330,Email,False,0
+CUST-00129,48,Denver,Tablet,6.6,1,114.83,Browse,New,55,Organic,False,0
+CUST-00131,39,San Francisco,Mobile,13.5,4,48.89,Browse,New,41,Paid Search,False,0
+CUST-00132,56,Denver,Mobile,11.7,5,101.05,Browse,New,57,Paid Search,True,0
+CUST-00133,75,Miami,Desktop,4.4,1,211.45,Browse,New,32,Social Media,False,0
+CUST-00134,57,San Francisco,Desktop,5.9,4,188.59,Browse,Returning,129,Social Media,False,0
+CUST-00136,53,Dallas,Desktop,6.2,6,162.89,Browse,New,8,Paid Search,False,0
+CUST-00139,45,New York,Tablet,10.4,4,127.38,Browse,VIP,697,Email,False,0
+CUST-00142,53,Austin,Desktop,6.2,2,144.07,Browse,Returning,113,Organic,False,0
+CUST-00144,62,Austin,Desktop,19.2,1,146.18,Browse,New,45,Organic,False,0
+CUST-00145,42,Phoenix,Desktop,13.2,3,111.17,Browse,New,60,Paid Search,False,0
+CUST-00146,25,Austin,Mobile,4.8,5,65.03,Browse,VIP,640,Email,False,0
+CUST-00149,75,Miami,Tablet,4.5,3,183.18,Browse,New,18,Paid Search,False,0
+CUST-00150,61,New York,Tablet,7.8,7,138.64,Browse,New,7,Paid Search,False,0
+CUST-00152,30,Phoenix,Mobile,8.9,3,56.21,Browse,New,17,Social Media,False,0
+CUST-00153,68,Denver,Mobile,4.2,3,124.81,Browse,VIP,518,Direct,False,0
+CUST-00156,40,San Francisco,Mobile,9.6,1,81.59,Browse,New,5,Organic,False,0
+CUST-00159,40,Houston,Desktop,16.3,4,108.75,Browse,VIP,655,Email,False,0
+CUST-00161,40,Seattle,Desktop,7.5,4,115.51,Browse,Returning,199,Organic,False,0
+CUST-00165,35,Seattle,Desktop,9.6,5,72.86,Browse,New,42,Paid Search,False,0
+CUST-00167,75,San Diego,Desktop,11.7,2,163.7,Browse,New,13,Organic,True,0
+CUST-00168,27,New York,Desktop,5.0,1,101.32,Browse,Returning,354,Paid Search,False,0
+CUST-00169,75,Houston,Mobile,7.6,3,134.24,Browse,VIP,562,Email,True,0
+CUST-00172,49,San Francisco,Mobile,12.6,4,98.86,Browse,VIP,463,Email,False,0
+CUST-00174,36,Philadelphia,Tablet,16.3,1,59.98,Browse,New,1,Organic,True,0
+CUST-00176,75,Phoenix,Desktop,8.8,3,168.78,Browse,New,37,Organic,False,0
+CUST-00178,34,New York,Mobile,11.2,1,80.94,Browse,Returning,108,Organic,False,0
+CUST-00180,48,Austin,Desktop,8.5,2,152.61,Browse,Returning,129,Email,True,0
+CUST-00181,67,Dallas,Desktop,10.9,1,182.19,Browse,Returning,76,Organic,False,0
+CUST-00182,44,Philadelphia,Mobile,3.1,3,71.17,Browse,Returning,316,Organic,False,0
+CUST-00185,28,San Antonio,Mobile,3.5,2,57.3,Browse,Returning,206,Paid Search,False,0
+CUST-00190,46,Phoenix,Mobile,8.2,1,116.53,Browse,VIP,381,Organic,False,0
+CUST-00191,75,San Diego,Tablet,10.7,1,190.92,Browse,Returning,256,Social Media,False,0
+CUST-00195,48,Seattle,Mobile,7.8,2,85.85,Browse,New,24,Paid Search,True,0
+CUST-00196,50,San Francisco,Desktop,13.5,1,141.82,Browse,New,5,Paid Search,False,0
+CUST-00202,70,Boston,Desktop,8.9,4,192.64,Browse,New,10,Organic,False,0
+CUST-00203,25,Chicago,Mobile,6.2,5,50.12,Browse,New,11,Paid Search,False,0
+CUST-00206,64,Boston,Mobile,4.5,4,115.38,Browse,New,1,Paid Search,False,0
+CUST-00207,71,Houston,Desktop,11.5,5,174.32,Browse,New,49,Paid Search,False,0
+CUST-00209,33,Philadelphia,Desktop,14.0,1,102.79,Browse,New,38,Social Media,False,0
+CUST-00210,40,Chicago,Mobile,4.6,2,66.05,Browse,Returning,209,Organic,False,0
+CUST-00214,42,San Antonio,Mobile,8.3,4,69.99,Browse,Returning,72,Organic,False,0
+CUST-00216,57,Dallas,Desktop,6.8,7,127.23,Browse,New,23,Paid Search,False,0
+CUST-00217,42,San Francisco,Desktop,11.7,1,92.36,Browse,Returning,350,Social Media,False,0
+CUST-00223,57,Los Angeles,Desktop,5.1,3,125.08,Browse,New,38,Paid Search,False,0
+CUST-00224,25,San Antonio,Mobile,8.9,1,39.51,Browse,New,3,Social Media,False,0
+CUST-00225,75,San Francisco,Mobile,6.0,3,107.93,Browse,New,4,Organic,False,0
+CUST-00226,39,New York,Mobile,6.9,5,68.84,Browse,Returning,300,Email,False,0
+CUST-00228,49,Chicago,Desktop,5.8,2,111.09,Browse,Returning,364,Organic,True,0
+CUST-00235,36,Miami,Mobile,3.2,3,78.29,Browse,Returning,296,Email,False,0
+CUST-00237,34,Seattle,Desktop,16.5,4,136.63,Browse,VIP,462,Direct,False,0
+CUST-00238,66,Boston,Desktop,15.5,4,172.2,Browse,Returning,144,Direct,False,0
+CUST-00240,51,Los Angeles,Tablet,7.3,2,120.96,Browse,Returning,362,Email,False,0
+CUST-00244,55,Boston,Desktop,10.6,4,137.58,Browse,Returning,299,Organic,False,0
+CUST-00245,37,Houston,Mobile,5.6,5,53.41,Browse,New,11,Social Media,False,0
+CUST-00247,30,Seattle,Desktop,8.2,2,104.04,Browse,New,55,Paid Search,False,0
+CUST-00251,50,Austin,Mobile,9.0,4,124.78,Browse,VIP,596,Organic,False,0
+CUST-00252,39,New York,Mobile,4.5,2,56.48,Browse,New,24,Organic,False,0
+CUST-00254,68,Philadelphia,Mobile,4.3,4,160.38,Browse,VIP,721,Direct,False,0
+CUST-00255,37,San Diego,Mobile,4.8,1,65.1,Browse,New,12,Organic,False,0
+CUST-00260,57,New York,Tablet,5.1,7,122.15,Browse,Returning,124,Paid Search,False,0
+CUST-00263,57,Dallas,Desktop,25.0,2,167.21,Browse,New,8,Paid Search,False,0
+CUST-00269,50,Miami,Mobile,8.2,1,108.57,Browse,Returning,99,Organic,False,0
+CUST-00270,33,Los Angeles,Mobile,9.2,2,67.97,Browse,New,58,Paid Search,False,0
+CUST-00282,51,New York,Mobile,6.6,3,123.45,Browse,VIP,708,Email,False,0
+CUST-00283,63,New York,Mobile,3.6,6,120.46,Browse,Returning,188,Direct,False,0
+CUST-00284,48,Boston,Mobile,5.2,3,75.83,Browse,Returning,94,Organic,False,0
+CUST-00286,40,Houston,Mobile,8.7,3,68.66,Browse,New,7,Organic,False,0
+CUST-00289,75,New York,Mobile,5.0,8,131.61,Browse,Returning,225,Organic,False,0
+CUST-00291,43,New York,Mobile,12.5,3,64.3,Browse,New,12,Organic,False,0
+CUST-00292,34,Seattle,Desktop,7.9,2,67.75,Browse,New,30,Social Media,False,0
+CUST-00294,46,San Diego,Mobile,23.9,4,77.8,Browse,New,5,Organic,False,0
+CUST-00295,51,Boston,Mobile,3.4,3,81.59,Browse,New,54,Organic,False,0
+CUST-00298,33,Houston,Mobile,6.3,2,49.13,Browse,New,26,Paid Search,False,0
+CUST-00300,49,Austin,Mobile,14.4,3,70.64,Browse,Returning,108,Social Media,False,0
+CUST-00301,55,Miami,Mobile,3.3,4,120.19,Browse,VIP,660,Email,False,0
+CUST-00308,39,Miami,Mobile,5.1,2,82.98,Browse,VIP,678,Direct,False,0
+CUST-00310,75,San Francisco,Mobile,6.1,4,145.81,Browse,Returning,263,Email,False,0
+CUST-00311,75,Los Angeles,Desktop,18.9,5,189.96,Browse,Returning,110,Email,False,0
+CUST-00312,38,San Antonio,Tablet,7.9,2,82.58,Browse,New,1,Paid Search,False,0
+CUST-00313,41,New York,Mobile,5.1,4,70.33,Browse,New,41,Organic,False,0
+CUST-00317,36,Austin,Mobile,4.3,2,49.85,Browse,Returning,212,Paid Search,False,0
+CUST-00318,46,Seattle,Tablet,12.1,1,103.09,Browse,Returning,135,Paid Search,False,0
+CUST-00319,75,Boston,Desktop,6.5,4,198.81,Browse,New,38,Paid Search,False,0
+CUST-00320,40,Chicago,Mobile,7.3,4,84.83,Browse,Returning,264,Direct,False,0
+CUST-00324,59,Boston,Mobile,5.4,3,82.58,Browse,New,21,Paid Search,True,0
+CUST-00329,55,New York,Desktop,4.0,6,214.9,Browse,VIP,617,Direct,False,0
+CUST-00330,74,San Francisco,Desktop,11.7,3,205.72,Browse,New,27,Organic,False,0
+CUST-00331,58,Los Angeles,Mobile,6.1,2,121.7,Browse,Returning,248,Paid Search,False,0
+CUST-00333,49,Seattle,Desktop,8.7,2,115.91,Browse,New,33,Social Media,False,0
+CUST-00334,53,San Francisco,Mobile,9.1,1,102.26,Browse,New,5,Paid Search,False,0
+CUST-00335,41,New York,Mobile,20.1,3,89.39,Browse,Returning,224,Organic,False,0
+CUST-00336,50,Houston,Desktop,4.6,4,105.48,Browse,New,27,Organic,False,0
+CUST-00340,51,Boston,Desktop,12.5,3,139.34,Browse,Returning,326,Organic,False,0
+CUST-00343,50,Phoenix,Desktop,11.6,4,146.97,Browse,New,58,Organic,False,0
+CUST-00344,41,Philadelphia,Desktop,6.8,1,135.6,Browse,Returning,265,Organic,True,0
+CUST-00345,50,Dallas,Mobile,2.8,2,82.01,Browse,New,19,Organic,True,0
+CUST-00348,39,San Antonio,Mobile,5.0,3,81.03,Browse,New,41,Paid Search,False,0
+CUST-00349,53,Miami,Mobile,3.2,6,110.46,Browse,Returning,75,Email,False,0
+CUST-00354,34,Seattle,Mobile,7.0,2,74.59,Browse,New,10,Paid Search,False,0
+CUST-00355,59,Phoenix,Desktop,4.9,3,175.82,Browse,New,55,Social Media,True,0
+CUST-00357,62,Denver,Mobile,9.3,2,85.43,Browse,New,12,Organic,False,0
+CUST-00361,43,New York,Mobile,5.8,4,76.93,Browse,Returning,223,Email,False,0
+CUST-00363,32,Los Angeles,Tablet,6.6,8,70.65,Browse,New,57,Social Media,False,0
+CUST-00366,54,Miami,Mobile,4.3,3,102.2,Browse,New,36,Paid Search,False,0
+CUST-00369,50,Los Angeles,Desktop,10.5,4,135.77,Browse,Returning,265,Direct,False,0
+CUST-00370,59,Denver,Desktop,4.6,1,166.9,Browse,Returning,162,Direct,False,0
+CUST-00371,38,Boston,Mobile,6.3,1,57.61,Browse,New,48,Organic,False,0
+CUST-00372,75,Philadelphia,Desktop,9.0,1,194.02,Browse,New,21,Paid Search,False,0
+CUST-00373,49,Dallas,Desktop,13.4,5,141.64,Browse,New,14,Organic,True,0
+CUST-00375,41,Los Angeles,Desktop,8.9,2,163.44,Browse,VIP,608,Direct,False,0
+CUST-00376,26,San Antonio,Tablet,14.9,5,91.43,Browse,Returning,237,Paid Search,False,0
+CUST-00378,23,Los Angeles,Mobile,6.7,2,29.73,Browse,Returning,259,Organic,False,0
+CUST-00380,54,New York,Desktop,5.6,1,166.32,Browse,Returning,126,Email,False,0
+CUST-00381,34,New York,Desktop,12.0,1,88.08,Browse,New,56,Social Media,False,0
+CUST-00387,43,Houston,Mobile,4.3,4,66.4,Browse,New,12,Paid Search,False,0
+CUST-00388,38,San Antonio,Desktop,8.6,1,132.82,Browse,Returning,253,Organic,False,0
+CUST-00392,57,Los Angeles,Tablet,9.3,1,112.76,Browse,Returning,341,Email,False,0
+CUST-00393,74,Dallas,Mobile,2.7,3,101.2,Browse,New,34,Organic,False,0
+CUST-00395,48,Los Angeles,Mobile,5.7,1,83.02,Browse,Returning,74,Direct,False,0
+CUST-00398,58,Philadelphia,Desktop,11.0,4,133.7,Browse,New,3,Social Media,False,0
+CUST-00004,45,New York,Mobile,23.7,4,121.71,Add to Cart,Returning,211,Organic,True,0
+CUST-00009,47,Miami,Desktop,15.0,5,194.36,Add to Cart,Returning,138,Organic,False,0
+CUST-00010,35,Houston,Mobile,11.1,4,123.15,Add to Cart,New,40,Organic,True,0
+CUST-00018,51,Miami,Desktop,16.0,9,152.98,Add to Cart,New,37,Organic,True,0
+CUST-00021,37,Los Angeles,Mobile,21.0,6,116.01,Add to Cart,Returning,237,Paid Search,False,0
+CUST-00028,36,San Francisco,Mobile,11.5,7,108.03,Add to Cart,Returning,115,Social Media,True,0
+CUST-00029,45,San Francisco,Mobile,19.2,8,155.42,Add to Cart,Returning,70,Paid Search,True,0
+CUST-00031,50,Houston,Mobile,6.1,3,98.22,Add to Cart,New,16,Organic,False,0
+CUST-00039,25,Philadelphia,Tablet,16.3,9,78.62,Add to Cart,New,19,Social Media,True,0
+CUST-00042,75,Phoenix,Desktop,13.5,9,225.25,Add to Cart,Returning,336,Paid Search,False,0
+CUST-00046,75,Los Angeles,Desktop,19.0,2,232.16,Add to Cart,Returning,74,Organic,False,0
+CUST-00048,40,Dallas,Mobile,19.2,5,77.23,Add to Cart,New,59,Paid Search,True,0
+CUST-00049,28,San Francisco,Mobile,8.9,3,116.17,Add to Cart,Returning,343,Organic,True,0
+CUST-00055,40,Miami,Mobile,20.9,5,94.16,Add to Cart,Returning,264,Organic,True,0
+CUST-00066,73,Phoenix,Tablet,16.0,5,250.74,Add to Cart,VIP,623,Direct,False,0
+CUST-00075,25,Chicago,Mobile,8.8,6,91.76,Add to Cart,New,40,Social Media,True,0
+CUST-00082,36,Chicago,Mobile,10.8,4,95.26,Add to Cart,New,58,Social Media,True,0
+CUST-00088,50,San Francisco,Mobile,10.7,9,100.66,Add to Cart,Returning,283,Organic,True,0
+CUST-00090,44,Philadelphia,Desktop,10.3,7,240.08,Add to Cart,VIP,645,Email,True,0
+CUST-00094,73,Denver,Mobile,5.5,8,140.71,Add to Cart,Returning,290,Organic,False,0
+CUST-00096,52,New York,Desktop,15.9,6,230.18,Add to Cart,New,54,Organic,False,0
+CUST-00097,45,Chicago,Mobile,9.0,3,114.07,Add to Cart,Returning,234,Social Media,False,0
+CUST-00102,33,Los Angeles,Desktop,10.7,4,122.2,Add to Cart,New,27,Social Media,False,0
+CUST-00104,63,Boston,Mobile,10.4,4,165.53,Add to Cart,Returning,280,Paid Search,False,0
+CUST-00115,36,Philadelphia,Tablet,13.9,5,164.55,Add to Cart,New,2,Paid Search,True,0
+CUST-00120,48,New York,Desktop,25.1,7,237.8,Add to Cart,Returning,128,Social Media,False,0
+CUST-00130,65,Los Angeles,Mobile,13.7,4,126.57,Add to Cart,New,48,Organic,False,0
+CUST-00137,39,Denver,Desktop,10.5,3,130.25,Add to Cart,New,12,Social Media,True,0
+CUST-00138,48,San Diego,Desktop,16.0,6,149.93,Add to Cart,New,53,Paid Search,False,0
+CUST-00143,41,Los Angeles,Desktop,12.5,12,177.56,Add to Cart,Returning,71,Direct,True,0
+CUST-00147,34,New York,Mobile,11.0,5,67.55,Add to Cart,New,18,Social Media,False,0
+CUST-00148,47,Austin,Desktop,17.7,7,176.13,Add to Cart,New,49,Paid Search,False,0
+CUST-00154,58,Seattle,Desktop,9.6,3,253.17,Add to Cart,Returning,110,Email,False,0
+CUST-00157,36,Denver,Desktop,43.1,9,185.9,Add to Cart,Returning,164,Organic,False,0
+CUST-00162,43,Seattle,Desktop,14.4,6,134.14,Add to Cart,New,28,Social Media,True,0
+CUST-00163,34,Seattle,Mobile,13.6,7,98.09,Add to Cart,New,47,Social Media,False,0
+CUST-00164,60,Philadelphia,Desktop,17.4,5,212.91,Add to Cart,Returning,89,Organic,False,0
+CUST-00170,51,Houston,Desktop,13.7,10,182.64,Add to Cart,Returning,228,Organic,False,0
+CUST-00171,33,Phoenix,Mobile,5.6,10,115.45,Add to Cart,New,45,Organic,True,0
+CUST-00173,59,Phoenix,Desktop,10.0,4,255.36,Add to Cart,New,45,Paid Search,True,0
+CUST-00175,55,Chicago,Mobile,19.1,12,142.92,Add to Cart,Returning,118,Organic,False,0
+CUST-00177,40,Chicago,Desktop,19.5,6,180.87,Add to Cart,New,40,Paid Search,True,0
+CUST-00186,31,Philadelphia,Mobile,13.9,3,107.04,Add to Cart,New,25,Paid Search,True,0
+CUST-00188,43,Houston,Mobile,20.3,7,120.02,Add to Cart,Returning,218,Paid Search,False,0
+CUST-00189,29,Phoenix,Mobile,12.5,6,91.88,Add to Cart,New,45,Social Media,False,0
+CUST-00194,75,Seattle,Mobile,15.7,6,180.02,Add to Cart,VIP,592,Direct,False,0
+CUST-00201,75,Austin,Desktop,5.7,11,228.16,Add to Cart,Returning,242,Direct,True,0
+CUST-00205,36,New York,Desktop,7.3,7,190.41,Add to Cart,New,49,Paid Search,False,0
+CUST-00208,59,New York,Mobile,9.5,7,106.63,Add to Cart,New,43,Organic,True,0
+CUST-00211,55,Chicago,Desktop,23.6,6,197.66,Add to Cart,New,3,Paid Search,True,0
+CUST-00212,43,Houston,Mobile,7.6,2,91.22,Add to Cart,Returning,209,Organic,False,0
+CUST-00213,41,Seattle,Desktop,5.4,7,205.66,Add to Cart,New,42,Paid Search,True,0
+CUST-00219,32,Phoenix,Desktop,16.9,6,125.48,Add to Cart,New,33,Paid Search,False,0
+CUST-00221,66,Los Angeles,Mobile,7.9,3,178.05,Add to Cart,Returning,160,Paid Search,True,0
+CUST-00222,29,San Francisco,Desktop,7.7,7,167.32,Add to Cart,New,46,Social Media,True,0
+CUST-00230,52,Philadelphia,Desktop,8.8,9,234.74,Add to Cart,New,50,Paid Search,False,0
+CUST-00232,50,San Diego,Mobile,12.3,4,155.76,Add to Cart,Returning,318,Organic,False,0
+CUST-00233,44,New York,Mobile,12.8,6,132.89,Add to Cart,Returning,282,Direct,False,0
+CUST-00234,39,Dallas,Mobile,11.9,9,97.93,Add to Cart,Returning,296,Direct,False,0
+CUST-00239,55,Chicago,Tablet,11.7,4,207.63,Add to Cart,Returning,362,Organic,True,0
+CUST-00256,46,Los Angeles,Desktop,31.5,8,183.91,Add to Cart,New,53,Organic,True,0
+CUST-00258,59,Denver,Desktop,15.8,4,235.5,Add to Cart,New,7,Paid Search,False,0
+CUST-00259,39,Los Angeles,Mobile,11.4,5,121.45,Add to Cart,VIP,602,Direct,False,0
+CUST-00261,29,New York,Mobile,7.5,9,60.31,Add to Cart,New,18,Paid Search,True,0
+CUST-00264,53,San Diego,Desktop,18.8,4,257.68,Add to Cart,Returning,284,Organic,True,0
+CUST-00267,54,Dallas,Desktop,18.4,2,204.99,Add to Cart,New,5,Organic,True,0
+CUST-00268,54,San Antonio,Desktop,20.1,6,220.2,Add to Cart,New,15,Organic,True,0
+CUST-00275,40,San Francisco,Desktop,17.4,7,221.84,Add to Cart,VIP,721,Email,False,0
+CUST-00276,41,Miami,Mobile,13.2,9,111.04,Add to Cart,Returning,142,Email,False,0
+CUST-00278,71,New York,Mobile,6.9,7,149.28,Add to Cart,Returning,198,Paid Search,False,0
+CUST-00279,35,San Francisco,Desktop,15.1,7,110.2,Add to Cart,New,51,Paid Search,True,0
+CUST-00285,66,Los Angeles,Mobile,19.9,2,157.5,Add to Cart,New,12,Social Media,False,0
+CUST-00287,74,Chicago,Tablet,14.5,6,318.46,Add to Cart,VIP,425,Direct,False,0
+CUST-00288,41,Houston,Mobile,21.9,4,112.91,Add to Cart,New,42,Organic,True,0
+CUST-00290,41,San Antonio,Desktop,8.4,3,149.19,Add to Cart,Returning,253,Email,True,0
+CUST-00296,65,Austin,Mobile,11.7,8,184.06,Add to Cart,Returning,106,Paid Search,True,0
+CUST-00299,53,Houston,Desktop,5.1,10,186.68,Add to Cart,New,13,Paid Search,False,0
+CUST-00302,38,Austin,Desktop,14.4,9,153.22,Add to Cart,Returning,181,Email,False,0
+CUST-00303,39,San Diego,Mobile,11.0,5,86.88,Add to Cart,Returning,103,Organic,False,0
+CUST-00304,38,San Francisco,Desktop,18.2,8,183.71,Add to Cart,New,0,Paid Search,True,0
+CUST-00307,39,San Diego,Tablet,16.5,10,182.27,Add to Cart,Returning,99,Email,False,0
+CUST-00316,44,Houston,Desktop,14.4,8,155.68,Add to Cart,Returning,263,Organic,False,0
+CUST-00321,50,Phoenix,Mobile,28.2,8,124.27,Add to Cart,Returning,116,Direct,False,0
+CUST-00323,39,Miami,Mobile,19.3,5,113.54,Add to Cart,VIP,417,Direct,False,0
+CUST-00327,67,San Antonio,Desktop,6.6,2,251.19,Add to Cart,Returning,221,Paid Search,True,0
+CUST-00328,61,Dallas,Mobile,16.2,8,116.2,Add to Cart,New,9,Paid Search,False,0
+CUST-00338,58,Houston,Tablet,7.3,4,186.41,Add to Cart,New,38,Organic,True,0
+CUST-00339,75,New York,Desktop,12.6,6,278.58,Add to Cart,New,22,Social Media,False,0
+CUST-00341,75,San Diego,Desktop,7.3,9,296.83,Add to Cart,New,48,Paid Search,True,0
+CUST-00342,57,Houston,Desktop,12.1,5,170.31,Add to Cart,New,33,Paid Search,True,0
+CUST-00346,49,San Antonio,Desktop,17.8,5,239.15,Add to Cart,Returning,341,Direct,False,0
+CUST-00347,37,Boston,Desktop,29.5,6,172.7,Add to Cart,VIP,438,Organic,False,0
+CUST-00350,75,Denver,Desktop,13.7,5,265.86,Add to Cart,New,46,Paid Search,True,0
+CUST-00351,46,Los Angeles,Mobile,12.2,4,98.27,Add to Cart,Returning,238,Organic,False,0
+CUST-00353,24,New York,Mobile,6.9,4,97.93,Add to Cart,New,38,Organic,True,0
+CUST-00356,31,Denver,Desktop,8.2,4,140.86,Add to Cart,Returning,83,Paid Search,False,0
+CUST-00358,58,Seattle,Desktop,8.6,9,207.43,Add to Cart,New,7,Paid Search,True,0
+CUST-00360,37,Houston,Desktop,11.7,7,221.12,Add to Cart,Returning,198,Organic,True,0
+CUST-00362,53,Phoenix,Desktop,17.5,10,254.9,Add to Cart,VIP,603,Email,True,0
+CUST-00364,75,San Francisco,Desktop,27.3,5,274.59,Add to Cart,New,27,Organic,False,0
+CUST-00374,38,Seattle,Mobile,11.5,8,119.36,Add to Cart,New,58,Social Media,True,0
+CUST-00382,46,Los Angeles,Desktop,22.1,10,209.62,Add to Cart,New,47,Social Media,True,0
+CUST-00383,47,Miami,Desktop,14.4,7,191.85,Add to Cart,Returning,330,Paid Search,False,0
+CUST-00003,52,New York,Tablet,17.3,8,196.25,Checkout Started,Returning,315,Direct,False,1
+CUST-00008,61,Los Angeles,Mobile,45.8,8,232.79,Checkout Started,Returning,159,Organic,False,3
+CUST-00013,54,Austin,Desktop,29.8,6,277.12,Checkout Started,Returning,158,Paid Search,False,1
+CUST-00026,43,Philadelphia,Desktop,29.0,6,203.1,Checkout Started,Returning,105,Organic,True,2
+CUST-00036,37,San Diego,Mobile,27.9,3,130.53,Checkout Started,Returning,242,Paid Search,False,1
+CUST-00052,70,Boston,Desktop,15.9,8,343.35,Checkout Started,VIP,531,Organic,False,3
+CUST-00063,75,Houston,Mobile,22.3,7,205.72,Checkout Started,New,28,Paid Search,False,1
+CUST-00068,27,Chicago,Mobile,19.4,11,106.66,Checkout Started,Returning,215,Direct,True,2
+CUST-00071,75,Seattle,Desktop,16.6,8,275.11,Checkout Started,Returning,144,Paid Search,True,2
+CUST-00074,46,Philadelphia,Desktop,19.3,11,199.35,Checkout Started,Returning,176,Email,True,2
+CUST-00076,45,New York,Desktop,36.2,7,256.72,Checkout Started,Returning,259,Organic,True,1
+CUST-00077,53,Los Angeles,Desktop,13.2,5,324.0,Checkout Started,Returning,226,Paid Search,True,2
+CUST-00081,39,Philadelphia,Desktop,12.6,7,177.38,Checkout Started,New,15,Paid Search,False,2
+CUST-00087,37,New York,Mobile,9.5,12,98.43,Checkout Started,New,28,Social Media,False,2
+CUST-00092,39,Seattle,Mobile,17.1,13,169.19,Checkout Started,Returning,290,Social Media,True,2
+CUST-00093,29,San Diego,Mobile,8.4,4,167.79,Checkout Started,New,5,Organic,False,3
+CUST-00095,57,Los Angeles,Desktop,19.8,10,309.16,Checkout Started,Returning,204,Organic,False,3
+CUST-00108,44,Los Angeles,Desktop,22.4,5,297.54,Checkout Started,Returning,62,Organic,False,1
+CUST-00114,48,Denver,Mobile,7.5,8,179.14,Checkout Started,VIP,439,Direct,False,2
+CUST-00116,43,San Antonio,Desktop,14.7,8,246.99,Checkout Started,VIP,366,Organic,False,2
+CUST-00117,35,Philadelphia,Desktop,31.2,9,275.06,Checkout Started,VIP,392,Email,True,3
+CUST-00121,60,Houston,Mobile,26.4,5,164.11,Checkout Started,Returning,82,Organic,True,1
+CUST-00127,28,Austin,Mobile,7.4,5,213.07,Checkout Started,VIP,438,Organic,False,2
+CUST-00128,38,Philadelphia,Desktop,15.6,6,306.37,Checkout Started,Returning,206,Organic,False,2
+CUST-00158,48,Phoenix,Desktop,14.0,7,266.5,Checkout Started,Returning,311,Organic,False,3
+CUST-00160,66,Austin,Desktop,37.5,7,260.11,Checkout Started,Returning,252,Direct,False,1
+CUST-00166,54,Los Angeles,Desktop,16.0,7,285.1,Checkout Started,New,23,Paid Search,False,1
+CUST-00184,34,Denver,Desktop,18.4,5,301.84,Checkout Started,VIP,379,Direct,False,2
+CUST-00187,31,New York,Desktop,14.7,7,223.14,Checkout Started,Returning,213,Organic,False,1
+CUST-00197,45,Miami,Tablet,16.6,5,220.05,Checkout Started,VIP,601,Organic,False,1
+CUST-00200,43,New York,Desktop,20.0,10,264.84,Checkout Started,Returning,247,Social Media,True,2
+CUST-00215,68,Houston,Desktop,18.0,7,279.01,Checkout Started,New,6,Paid Search,True,1
+CUST-00218,52,Chicago,Desktop,21.4,5,216.78,Checkout Started,New,17,Organic,True,2
+CUST-00220,40,Los Angeles,Desktop,16.6,8,346.6,Checkout Started,VIP,574,Direct,False,3
+CUST-00231,28,Seattle,Mobile,12.2,7,201.88,Checkout Started,VIP,604,Direct,True,3
+CUST-00236,50,Dallas,Mobile,13.8,5,164.07,Checkout Started,New,51,Paid Search,False,2
+CUST-00250,55,Phoenix,Desktop,12.5,8,260.91,Checkout Started,VIP,467,Email,False,3
+CUST-00253,49,Dallas,Mobile,19.8,10,184.75,Checkout Started,Returning,344,Paid Search,False,1
+CUST-00265,57,Chicago,Mobile,14.6,6,139.49,Checkout Started,New,55,Paid Search,False,2
+CUST-00266,62,Phoenix,Desktop,20.9,8,311.4,Checkout Started,New,25,Paid Search,True,2
+CUST-00271,66,San Francisco,Desktop,17.6,8,272.25,Checkout Started,Returning,83,Social Media,False,2
+CUST-00272,46,Phoenix,Mobile,29.5,6,168.5,Checkout Started,New,33,Social Media,False,3
+CUST-00273,59,Phoenix,Desktop,19.9,7,236.09,Checkout Started,Returning,105,Email,False,2
+CUST-00277,42,Los Angeles,Desktop,10.2,10,216.63,Checkout Started,New,47,Social Media,True,2
+CUST-00280,75,San Diego,Desktop,9.9,10,413.33,Checkout Started,Returning,154,Direct,False,1
+CUST-00293,37,Chicago,Mobile,10.7,6,192.4,Checkout Started,VIP,673,Email,False,2
+CUST-00297,44,San Antonio,Tablet,18.2,9,252.46,Checkout Started,Returning,335,Social Media,True,2
+CUST-00305,69,Philadelphia,Tablet,8.9,11,280.73,Checkout Started,Returning,111,Organic,False,2
+CUST-00309,58,Los Angeles,Desktop,21.7,11,304.84,Checkout Started,New,9,Paid Search,False,2
+CUST-00315,52,San Francisco,Mobile,11.2,4,186.08,Checkout Started,New,21,Paid Search,True,2
+CUST-00322,75,Los Angeles,Mobile,12.2,3,178.74,Checkout Started,New,6,Paid Search,True,3
+CUST-00326,57,Denver,Desktop,31.6,6,331.15,Checkout Started,Returning,97,Paid Search,True,2
+CUST-00332,44,Seattle,Desktop,12.5,5,193.1,Checkout Started,New,40,Organic,False,1
+CUST-00337,48,Chicago,Mobile,12.8,5,166.4,Checkout Started,Returning,290,Paid Search,False,1
+CUST-00352,30,Boston,Mobile,13.1,9,129.03,Checkout Started,New,41,Social Media,True,3
+CUST-00377,40,Phoenix,Mobile,19.7,8,150.33,Checkout Started,Returning,75,Paid Search,False,3
+CUST-00379,61,Houston,Mobile,11.0,10,186.11,Checkout Started,Returning,309,Email,False,3
+CUST-00384,32,San Diego,Mobile,19.1,6,159.6,Checkout Started,Returning,171,Organic,False,1
+CUST-00385,44,Miami,Tablet,23.2,8,158.93,Checkout Started,Returning,331,Email,True,1
+CUST-00386,47,Philadelphia,Desktop,24.8,7,258.58,Checkout Started,New,57,Paid Search,False,1
+CUST-00389,34,Philadelphia,Desktop,21.6,6,306.66,Checkout Started,Returning,267,Organic,False,1
+CUST-00390,43,New York,Mobile,16.4,3,175.29,Checkout Started,Returning,70,Organic,False,3
+CUST-00394,63,Austin,Tablet,26.4,6,262.27,Checkout Started,Returning,165,Social Media,False,1
+CUST-00397,63,Seattle,Mobile,20.4,8,163.09,Checkout Started,Returning,132,Email,True,1
+CUST-00399,72,New York,Desktop,31.0,5,312.99,Checkout Started,New,31,Social Media,True,1
+CUST-00400,50,Miami,Mobile,14.0,10,187.89,Checkout Started,Returning,329,Email,True,2
+CUST-00002,47,San Francisco,Desktop,18.5,10,426.49,Purchase Complete,Returning,203,Organic,False,0
+CUST-00012,45,Seattle,Tablet,36.2,11,195.34,Purchase Complete,Returning,64,Social Media,False,0
+CUST-00034,55,New York,Mobile,19.4,13,281.66,Purchase Complete,Returning,326,Email,False,0
+CUST-00035,75,Denver,Desktop,26.3,11,500.0,Purchase Complete,Returning,152,Social Media,False,0
+CUST-00044,55,Dallas,Desktop,19.7,6,266.5,Purchase Complete,Returning,141,Paid Search,True,0
+CUST-00051,45,San Francisco,Desktop,23.2,12,394.76,Purchase Complete,New,21,Paid Search,False,0
+CUST-00053,47,Los Angeles,Mobile,14.4,8,222.59,Purchase Complete,Returning,98,Organic,False,0
+CUST-00054,48,Chicago,Mobile,11.9,12,161.31,Purchase Complete,New,50,Social Media,False,0
+CUST-00056,57,Los Angeles,Desktop,40.9,13,237.35,Purchase Complete,New,60,Paid Search,False,0
+CUST-00089,45,Austin,Mobile,19.3,8,155.79,Purchase Complete,Returning,183,Direct,False,0
+CUST-00105,48,Houston,Mobile,22.0,11,185.6,Purchase Complete,Returning,343,Direct,False,0
+CUST-00113,40,Dallas,Desktop,24.0,9,315.72,Purchase Complete,Returning,327,Paid Search,False,0
+CUST-00119,60,Los Angeles,Desktop,13.5,8,383.04,Purchase Complete,New,21,Organic,False,0
+CUST-00122,38,San Francisco,Mobile,19.6,15,228.42,Purchase Complete,New,25,Organic,False,0
+CUST-00135,44,San Antonio,Mobile,14.4,8,245.79,Purchase Complete,Returning,90,Organic,False,0
+CUST-00141,41,San Francisco,Desktop,21.7,4,391.21,Purchase Complete,New,53,Organic,False,0
+CUST-00151,24,Miami,Mobile,17.4,8,107.43,Purchase Complete,Returning,82,Paid Search,False,0
+CUST-00179,45,Dallas,Desktop,25.0,9,205.29,Purchase Complete,New,21,Paid Search,True,0
+CUST-00183,41,Phoenix,Mobile,20.5,20,197.86,Purchase Complete,New,49,Paid Search,False,0
+CUST-00192,68,San Antonio,Mobile,19.5,10,242.31,Purchase Complete,VIP,617,Direct,False,0
+CUST-00193,43,Dallas,Mobile,28.3,8,218.06,Purchase Complete,VIP,380,Email,False,0
+CUST-00198,46,New York,Mobile,13.3,8,185.77,Purchase Complete,VIP,679,Organic,False,0
+CUST-00199,39,Los Angeles,Mobile,16.0,9,145.3,Purchase Complete,Returning,316,Organic,False,0
+CUST-00204,30,Boston,Mobile,25.6,13,136.75,Purchase Complete,VIP,471,Direct,False,0
+CUST-00229,49,Miami,Desktop,16.8,11,304.44,Purchase Complete,Returning,99,Organic,True,0
+CUST-00241,65,Dallas,Desktop,24.9,9,351.53,Purchase Complete,Returning,139,Paid Search,False,0
+CUST-00242,27,Phoenix,Mobile,21.6,9,239.17,Purchase Complete,Returning,281,Organic,False,0
+CUST-00243,31,Denver,Desktop,24.2,14,320.05,Purchase Complete,Returning,257,Organic,False,0
+CUST-00246,38,Chicago,Mobile,11.3,11,160.41,Purchase Complete,Returning,224,Email,False,0
+CUST-00248,34,Chicago,Mobile,39.2,9,213.99,Purchase Complete,New,51,Paid Search,False,0
+CUST-00249,66,Seattle,Desktop,27.3,12,390.0,Purchase Complete,New,21,Paid Search,True,0
+CUST-00257,75,San Francisco,Mobile,14.8,13,224.32,Purchase Complete,Returning,127,Social Media,False,0
+CUST-00274,64,San Francisco,Desktop,19.8,5,484.17,Purchase Complete,Returning,327,Direct,False,0
+CUST-00281,50,Chicago,Tablet,21.3,12,250.52,Purchase Complete,Returning,288,Direct,False,0
+CUST-00314,51,Philadelphia,Desktop,27.2,16,500.0,Purchase Complete,VIP,577,Email,False,0
+CUST-00325,75,San Antonio,Desktop,16.5,10,316.72,Purchase Complete,New,47,Paid Search,True,0
+CUST-00359,45,Seattle,Desktop,13.1,8,221.02,Purchase Complete,Returning,216,Organic,True,0
+CUST-00365,52,Houston,Mobile,18.5,11,268.69,Purchase Complete,Returning,288,Paid Search,False,0
+CUST-00367,58,Austin,Desktop,27.6,12,371.04,Purchase Complete,Returning,196,Direct,True,0
+CUST-00368,72,Seattle,Tablet,31.2,9,338.29,Purchase Complete,VIP,412,Direct,False,0
+CUST-00396,38,New York,Mobile,15.8,11,214.09,Purchase Complete,New,46,Organic,True,0
+CUST-00070,59,Houston,Desktop,41.6,13,429.69,Review Left,VIP,471,Email,False,0
+CUST-00140,52,Boston,Mobile,19.0,11,348.25,Review Left,VIP,535,Direct,False,0
+CUST-00155,75,San Diego,Desktop,15.3,14,392.41,Review Left,Returning,333,Email,False,0
+CUST-00227,53,San Diego,Desktop,32.7,11,467.32,Review Left,Returning,350,Email,False,0
+CUST-00262,46,Austin,Mobile,17.5,15,217.41,Review Left,Returning,160,Organic,False,0
+CUST-00306,74,New York,Desktop,30.7,20,500.0,Review Left,VIP,666,Direct,False,0
+CUST-00391,39,Austin,Desktop,34.3,16,445.11,Review Left,VIP,458,Direct,False,0
